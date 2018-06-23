@@ -1,0 +1,415 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.btn-skin {
+  background-color: #4ACCD1;
+  border-color: #4ACCD1;
+}
+
+.btn-skin {
+  color: #fff;
+}
+.cta-btn {
+    float:right;
+    padding:20px 10px 20px 20px;
+    margin-top:10px;
+}
+
+body{
+	/*padding: 50px; */
+	/*if use a navbar-fixed-top */
+	overflow-x:hidden;
+	font-family: "Open Sans", sans-serif;
+	text-rendering:optimizeLegibility !important;
+	-webkit-font-smoothing:antialiased !important;
+}
+li{
+	list-style:none;
+	dispaly:inline-block;
+}
+a{
+	text-decoration:none;
+	transition:all 500ms ease-in-out;
+}
+
+a:hover,a:active{
+	text-decoration:none;
+}
+h1,h2,h4
+{
+	font-family: "PT sams Narrow", Arial,sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+}
+p{
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.btn{
+
+	transition:all 400ms ease-in-out;
+	/*transition: all 0.3s ease 0s;*/
+	font-weight: 500 ;
+	text-transform: uppercase;
+}
+
+.btn:hover{
+background: #ededed !important;
+color: #3c3c3c ;
+/*!important;*/
+border:1px solid #fff; 
+}
+
+.navbar-custom
+{
+margin:0;
+ /*to customize navbar drop down menu*/
+}
+
+.navbar-custom .navbar-nav .dropdown-menu  { 
+  background-color: #33aa33;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a  { 
+  color: #fff;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a:hover,
+.navbar-custom .navbar-nav .dropdown-menu>li>a:focus  { 
+  color: #33aa33;
+}
+
+
+.navbar {
+background-color:#33aa33 !important;
+text-transform: uppercase;
+font-family: "PT Sans Narrow",Arial ,sans-serif;
+font-weight: 700;
+/*border:none;*/
+}
+
+.icon-bar{
+background-color: #e67e22;
+}
+.navbar  a {
+color:#e67e22;
+opacity: 0.8;
+}
+
+.navbar-custom .navbar-nav a:hover{
+opacity: 1;
+background-color:#e67e22;
+color: #33aa33;
+}
+
+
+/*header*/
+
+ .header{
+	border:1px solid green;
+	/* problem here you cant mention the height of
+	 div or section bc it changes
+	  on  all devices*/
+	/*height:460px;*/
+	width:100%;
+	padding: 30px 0 0 30px;
+	/*margin-top: 50px;*/
+	/*margin:0;*/
+	background-image: url(images/background.jpg);
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.header img{
+	height: 350px;
+	/*width: 450px;*/
+	width: 90%;
+	margin:70px 0 0 0;
+
+}
+
+/*imag img {*/
+/*border:1pxs solid red;*/
+
+/*background: red;*/
+
+.header h1{
+	border:1px solid red;
+	font-size: 40px;
+	font-weight: 900;  
+	/* 400 normal 700 bold 800 900 are more than bold*/
+	/*padding-top: 30px;*/
+}
+.header h1, .header p,.header button{
+	margin-top: 30px;
+}
+.header .btn
+{
+	/*border-radius: 0;*/
+	margin-right: 50px;
+}
+
+
+/*header end*/
+
+@media(max-width: 768px){
+			.header
+			{
+			padding: 10px;
+		/*text-align: center;*/
+		/*color:red;*/
+			/*height:700px;*/
+			}
+		.header img{
+			width:90%;
+			/*height:300px;*/
+			margin:20px 0 0 20px;
+
+		}
+		.header h1{
+			font-size:20px;
+		}
+		.header p{
+			font-size:15px;
+		}
+		.header .btn{
+			font-size:10px;
+			/*margin-left:20px;*/
+		}
+}
+
+
+/* servies*/
+.services{
+	padding:40px 0 40px;
+	 /*10px 0 40px;*/
+	text-align: center;
+/* thses lines are are just
+to check image work in div as well
+
+background-image: url(images/img1.jpg);
+background-repeat: no-repeat;
+background-size: cover;*/
+}
+
+.services h2, .services h4{
+	color:#4c4c4c;
+	/*margin: 0;*/
+	margin:20px 20px;
+}
+.services p{
+		color: #737373;
+		font-size:14px;
+		/*padding-bottom: 40px;*/
+	}
+.services i{
+			height: 80px;
+			width: 80px;
+			font-size: 30px;
+			padding: 25px 20px;
+			border-radius: 50%;
+			background-color: #6699cc;
+			color: #fff;
+
+}
+@media(max-width: 768px)
+{
+	.services{
+		padding:30px;
+	}
+	.services p{
+		padding-bottom: 20px;
+	}
+}
+
+
+/*price section*/
+.price{
+	padding: 40px 0 40px;
+	text-align: center;
+	background-color: #3399ff; 
+	
+}
+.price h2, .price p{
+	color: #fff;
+}
+.price p{
+	padding-bottom: 20px;
+}
+.price .packages{
+	padding: 30px;
+	border:1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+	
+}
+.packages li{
+	display: block;
+	padding-top:  5px;	
+}
+.packages h4,.packages h1, .packages b{
+	color:#4c4c4c;	
+}
+.packages p, .packages li{
+	color: #737373;
+	}
+	 .packages button{
+	 	margin-top: 10px;
+	 }
+
+@media(max-width:768px){
+	.price{
+		padding: 10px;
+	}
+	 .price  .packages{
+		width:80%;
+		/*background-color: #e67322;*/
+		margin-left: 10%;
+		/*margin-right: 25px;*/
+	}
+}
+
+/*team css*/
+.team{
+	padding: 40px 0 80px;
+	text-align: center;
+	}
+.team b, .team h2, .team h4{
+	margin:20px 0 20px;
+	
+}
+.team p{
+ 	color:#737373;
+	
+}
+.team img{
+	height:150px;
+	width:150px;
+	/*margin-top:80px;*/
+	
+}
+.team i{
+	height: 30px;
+	width:30px;
+	padding: 5px;
+	font-size: 17px;
+	border-radius:50%;
+	background-color:#a0db8e;
+	margin-bottom: 20px;
+	 
+}
+.team a:hover i{
+	background-color:#709963;
+
+	
+}
+
+/*client*/
+.client{
+	padding: 50px 0 80px;
+	background-color: #3399ff;
+	text-align:center;
+	color:#fff;
+}
+.client h2{
+	color:#5e5e5e;
+}  
+.client p{
+	padding-bottom: 20px;
+}
+.client img{
+	border:1px solid red;
+	width:100px;
+	opacity: .6;
+	cursor:pointer;
+	margin:20px 0;
+	transition:all 300ms ease-in-out;
+}
+.client img:hover{
+	opacity:1;
+}
+
+/*  contact */
+.contact{
+	padding: 50px 0 80px;
+	text-align: center;
+}
+.contact p{
+	padding-bottom: 80px;
+	color:#737373; 
+}
+.contact h2{
+	color:#4c4c4c;
+	margin:20px 0 20px;
+}
+.contact .input-group{
+	margin-bottom: 25px;
+}
+
+.contact .form-control{
+	border-radius: 0 !important;
+}
+.contact span{
+	border-radius: 0 !important;
+}
+
+.contact .btn{
+	border-radius: 0;
+	width: 100%;
+	font-size: 15px;
+	background-color: #f08888 !important;
+	color: #fff; 
+}
+
+.contact .btn:hover{
+	background-color: #a85959 !important;
+	color:#fff !important;
+	
+}
+
+
+
+
+
+
+/*footer*/
+
+.footer{
+padding: 30px;
+color:#cccccc;
+background-color: #222222;
+}
+.footer .social i{
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	border:1px solid #cccccc;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	
+}
+.footer input{
+	height: 40px;
+	width: 160px;
+	padding: 5px;
+	border:none;
+	background-color: #cccccc;
+	color: #000;
+	
+}
+.footer .btn{
+	padding: 10px 5px 10px;
+	margin: -5px 0 0 5px;
+	
+}
+.footer{
+	
+}
+.footer{
+	
+}
