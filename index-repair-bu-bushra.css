@@ -1,0 +1,38 @@
+.title-banner-all {
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-size: 100% 100%;
+    min-height: 750px;
+    /* min-width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    z-index: 9;*/
+    min-height: 50vh; 
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.title-banner1{
+    background-image: url("img/watertap.jpg");
+    background-color: rgba(255,255,255,.9);
+
+    
+}
+
+.title-banner2{
+    background-image: url("img/banner1.jpg")
+}
+.title-banner3{
+    background-image: url("img/banner6.jpg")
+}
+h1{
+    color:red;
+}
+
+.tilte-banner-part1-right{
+min-height: 50vh;
+background-color: rgba(255,0,0,.2);
+color:#fff;
+}
