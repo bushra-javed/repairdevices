@@ -1,74 +1,45 @@
 
-img{
-    width: 50px;
-    height: 50px;
-}
-/* .atitle-banner1{
-    /* background-image: url("img/watertap.jpg"); */
-    /* //background-color: rgba(255,255,255,.9); */
-
-    
-/* } */ 
-
-.title-banner3 {
-    background-image: url('img/watertap.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
-    /*min-height: 100vh;*/
-    width: 100%;
-    /*min-height: calc(100vh - (75px));*/ /* 100% of the viewport height */
-}
-
-.title-banner-all1 {
-    /*background-image: url('IMAGES/AKRSP-2-e1507997433656.jpg');*/
-    /*min-height: 100vh;*/
-    width: 100%;
-    background-color: rgba(255,255,255,.3);
-    /*min-height: calc(100vh - 75px); /* 100% of the viewport height */ */
-}
-
-.title-banner3{
+.title-banner1{
     background-image: url("img/watertap.jpg");
-    /* background-color:rgba(255,255,255,.6) */
-    
 }
 .title-banner2{
-    background-image: url("img/banner1.jpg");
-    /* background-color:rgba(255,255,255,.6); */
+    background-image: url("img/banner2.jpg");
 }
-.title-banner1{
-    background-image: url("img/banner3.jpg");
-    /* background-color:rgba(255,255,255,.6); */
+.title-banner3{
+    background-image: url("img/fitting.jpg");
+  
+}
 
+.title-banner-all {
     background-repeat: no-repeat;
-    /*background-size: cover;*/
     background-size: 100% 100%;
-    /*min-height: 750px;*/
-    min-width: 100%;
-    /* position: relative; */
-    /* //overflow: hidden; */
+    width: 100%;
+    display: flex;
+    overflow: hidden; 
     padding: 0;
-    /* z-index: 9999; */
-    min-height: 100vh;
-    color:yellow;
-   background-color: rgba(48, 39, 39, 0.1);
+    height: 100vh;
+    border: 1px solid red;
+
+}
+.parent{
+    display:flex;
+    height: 100%;
 }
 
-#title-banner-all11 {
-    background-repeat: no-repeat;
-    /*background-size: cover;*/
-    background-size: 100% 100%;
-    /*min-height: 750px;*/
-    min-width: 100%;
-    /* position: relative; */
-    /* //overflow: hidden; */
-    padding: 0;
-    /* z-index: 9999; */
-    min-height: 100vh;
-    color:yellow;
-   /* background-color: rgba(48, 39, 39, 0.1); */
+.tilte-banner-part1-right{
+    color:#fff;
+    flex: 1;
+     width:100%;
+     background-color: rgba(0,0,0,.45);
+     height: 100%;
+     padding: 30px;
+     vertical-align:middle;
 }
 
-/*  */
-/*  */
+
+.rightarrow{
+
+}
+.leftarrow{
+
+}
