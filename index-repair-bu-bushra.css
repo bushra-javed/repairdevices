@@ -17,8 +17,7 @@
     display: flex;
     overflow: hidden; 
     padding: 0;
-    height: 100vh;
-    border: 1px solid red;
+    height: 50vh;
 
 }
 .parent{
@@ -32,14 +31,32 @@
      width:100%;
      background-color: rgba(0,0,0,.45);
      height: 100%;
-     padding: 30px;
-     vertical-align:middle;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    vertical-align:middle;
 }
 
 
-.rightarrow{
+
+/* 
+body,html,*{
+    margin: 0px important;
+    padding: 0px important;
+} */
+.nav-item .dropdown-menu{
+    border-radius: 0px;
+    margin-top: 10px;
+    color:gray;
+    background-color: orange
 
 }
-.leftarrow{
-
+.area-top{
+    background-color: gray;
+    color:#fff
+    font:10px
+    padding: 15px 70px;
+}
+.navbar{
+    background-color: blue;
 }
