@@ -9,7 +9,10 @@
 .title-banner3 {
     background-image: url("img/watertap.jpg");
 }
-
+/* img{
+    width: 100px;
+    height: 100px;
+} */
 .title-banner-all {
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -213,4 +216,54 @@ background-size: 100% 100%;
 .navbar-light .navbar-brand{
 color:#f5a700;
 /* border: 1px solid red !important; */
+}
+
+
+.contact1{
+    background-image: url("img/slice_0_0.png");
+    width:600px;
+height: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    margin-left: -50px;
+    
+}
+
+
+.contact2{
+    background-image: url("img/slice_2_0.png");
+    width:600px;
+height: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+
+.contact3{
+    background-image: url("img/slice1_2_0.png");
+    width:600px;
+height: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 0px;
+    
+}
+
+.contact4{
+    background-image: url("img/slice2_3_0.png");
+    width:600px;
+height: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 50px;
+    
 }
