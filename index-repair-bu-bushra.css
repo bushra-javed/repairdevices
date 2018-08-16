@@ -44,10 +44,17 @@
 .area-top {
     color:orange;
     padding: 10px 10px;
-    background-color: #fff;
+    background-color: rgb(167, 29, 29);
     
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
 /* 
 body,html,*{
     margin: 0px important;
@@ -61,7 +68,7 @@ body,html,*{
     color: #f5a700;
 }
 .stetoscope{
-    color:#444444;
+  color:#444444;
 }
 .navbar-light{
     background-color: #006ac6;
@@ -204,66 +211,269 @@ background-size: 100% 100%;
 
 .rightside{
 
-    background-image: url("img/right-side.png");
+    background-image: url("img/rightarrow.png");
 position: absolute;
 left:500px;
 top:0;
+/* background-color: red; */
 width: 50px;
 height: 100px;
 background-size: 100% 100%;
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
 }
 .navbar-light .navbar-brand{
-color:#f5a700;
-/* border: 1px solid red !important; */
+    color:#f5a700;
+    /* border: 1px solid red !important; */
+    
 }
+
+
+/*  contact */
+
+
+
+.col-lg-6.contact-leftside{
+border: 1px solid red;
+text-align: center;    
+background-color:green;
+/* margin: 0; */
+padding: 0;
+
+
+}
+    
+    
+    .col-lg-6.contact-riteside{
+padding: 0;
+    text-align: center;
+}
+
+.contact-innerleft{
+border: 16px solid black;
+    
+    background-color:red;
+    color:red;
+    background-color:gray;
+}
+
+
+
+
+/* 
+#ed9e48;
+ */
+/* .contact-innerrite
+{
+    width: 100%;
+    height: 100%;
+    background-color:#e97c25;
+    
+    /* border: 13px solid  purple; */
+    /* text-align: center; */
+    /* padding: 40px; */
+/* } */ 
+.circle2
+{
+    /* border: 1px solid red; */
+    background-image: url("img/circleimage.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+height: 237px;
+/* margin:0; */
+/* padding: 0; */
+color:red;
+    /* margin-left: 10px; */
+}
+.circle3
+{
+    /* border: 1px solid green; */
+    background-image: url("img/circle2ndhalf-1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    height: 80px;
+    
+    
+    /* margin-top:-20px; */
+    /* margin-left: 12px; */
+}
+.circle3
+{
+    color: #fff;
+    
+}
+
+.circle4
+{
+    /* border: 1px solid yellow; */
+    background-image: url("img/cirlce2nd4.png");
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80px;
+    
+    /* margin-top:-20px; */
+    /* margin-left: 10px; */
+}
+.circle5{
+    /* border: 1px solid blue; */
+    height: 100px;
+    background-image: url("img/circle2nd5.png");
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    /* margin-top:-10px; */
+    /* margin-left: 12px; */
+}
+
 
 
 .contact1{
     background-image: url("img/slice_0_0.png");
-    width:600px;
-height: 100px;
+    /* width:600px; */
+    height: 210px;
+    background-position: center center;
     background-repeat: no-repeat;
-    display: flex;
-    overflow: hidden;
-    padding: 0;
-    margin-left: -50px;
-    
+    /* display: flex; */
+    /* overflow: hidden; */
+    /* padding: 0; */
+    color: red;
+    /* margin-left: -50px; */
+border: 1px solid red !important;
+    /* text-align: center; */
 }
+/* 
+.contact1 img{
+margin: 50px 20px;
+background-color:#444444;
+padding: 20px;
+border-radius: 5px;
+} */
 
 
-.contact2{
-    background-image: url("img/slice_2_0.png");
-    width:600px;
-height: 100px;
-    background-repeat: no-repeat;
-    display: flex;
-    overflow: hidden;
-    margin-top: 10px;
-    margin-left: 50px;
+/* .contact2-div
+{
+
+    right: 140px;
+
+} */
+
+
+.contact-image{
+    margin-top: 8px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    /* background-color:#3faee2 */
+    /* border: 1px solid red; */
+}
+.contact2 img,
+.contact3 img,
+.contact4 img,
+.contact5 img{
     
+    width: 50px;
+    height: 50px;
+    /* padding: 10px; */
+}
+.contact2{
+    /* border: 1px solid red !important; */
+    /* z-index: 888; */
+position: relative;
+    background-image: url("img/slice_1_0.png");
+    background-position: center center;
+    
+    /* width:600px; */
+height:70px;
+    background-repeat: no-repeat;
+    /* display: flex;
+    overflow: hidden;
+    
+    /* margin-left: -20px; */
+    margin-top: -10px; 
 }
 
 .contact3{
-    background-image: url("img/slice1_2_0.png");
-    width:600px;
-height: 100px;
+    /* border: 1px solid red !important; */
+    /* z-index:9999; */
+
+    background-image: url("img/slice_2_0.png");
+    background-position: center center;
+
+    /* width:600px; */
+height: 70px;
     background-repeat: no-repeat;
-    display: flex;
+    /* display: flex;
     overflow: hidden;
-    margin-top: 10px;
-    margin-left: 0px;
+    /* margin-left: 20px; */
+    margin-top: -10px; 
     
 }
 
 .contact4{
-    background-image: url("img/slice2_3_0.png");
-    width:600px;
-height: 100px;
+    border: 1px solid red !important;
+
+    background-image: url("img/slice_3_0.png");
+    background-position: center center;
+
+    /* width:600px; */
+height: 70px;
+padding-top: 0;
     background-repeat: no-repeat;
     display: flex;
     overflow: hidden;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: -10px;
+    /* margin-left: -50px; */
     
+}
+
+.contact5{
+    /* border: 1px solid red !important; */
+
+    background-image: url("img/slice_4_0.png");
+    background-position: center center;
+
+    /* width:600px; */
+    height: 70px;
+    padding-top: 0;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    overflow: hidden;
+    margin-top: -12px;
+    /* margin-left: 50px; */
+    
+}
+
+
+.row{
+    padding:0;
+    margin: 0;
+}
+
+.col-lg-6,
+.col-sm-6,
+.col-md-6
+
+{
+    padding:0;
+    margin: 0;
+}
+.footer-sec
+{
+
+/* background-image: url("img/footer.png"); */
+    width:100%;
+    height: 570px;
+    border: 1px solid red;
+    /* padding-top: 0; */
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* overflow: hidden; */
+    /* margin-top: -12px; */
+    /* margin-left: 50px; */
+}
+.footer-sec img{
+    width: 100%;
+    height: 100%;
 }
