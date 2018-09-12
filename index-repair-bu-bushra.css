@@ -1,3 +1,6 @@
+/* background-color: rgba(25, 80, 8, 0.575); */
+/* background-color: rgba(25, 80, 8, 0.575); */
+/* #ec9842; */
 .row {
     /* border: 3px solid green */
 }
@@ -16,24 +19,122 @@
     /* border: 2px dotted red !important; */
 }
 
-.title-banner1 {
-    background-image: url("img/switch.jpg");
+/* ===========================header navbar=============================== */
+/* =======================navbar start==================== */
+.header-area-top {
+    vertical-align: middle;
+    font-size: 3.5vh;
+    padding: 5px;
+    color: #ec9842;
 }
 
-.title-banner2 {
-    background-image: url("img/banner4.jpg");
+.header-leftside {
+    height: 50px;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px;
+    color: #fff;
+    background-color: #ec9842;
 }
 
-.title-banner3 {
-    background-image: url("img/watertap.jpg");
+.header-rightside {
+    height: 50px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
 }
 
+.stetoscope {
+    color: #FFF;
+}
+
+.navbar-light {
+    /* background-color: #ec9842; */
+    background-color: #164571;
+}
+
+.navbar-light .navbar-brand {
+    /* color: #f5a700; */
+    color: #ec9842;
+    /* border: 1px solid red !important; */
+}
+
+.nav-item .dropdown-menu {
+    border-radius: 0px;
+    margin-top: 8px;
+    color: gray;
+    background-color: #ec9842;
+    min-width: 220px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-toggler {
+    border-color: #f5a700;
+}
+
+.navbar{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-item {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.nav-item {
+margin-right: 30px;
+    border: 1px solid red;
+}
+.dropdown-divider {
+    border: 1px solid #fff;
+    padding: 0;
+    margin: 0px !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-item,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link
+
+{
+    /* background-color: #006ac6 ;  */
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+    /* background-color:rgba(0,3,74,1)!important; */
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:focus {
+    color: #f5a700;
+}
+
+/* ============================================================ */
+/* ===================carousel ======================== */
+.carousel-title-banner1 {
+    background-image: url("img/carousel4.jpg");
+}
+
+.carousel-title-banner2 {
+    background-image: url("img/caurosel3.jpg");
+}
+
+.carousel-title-banner3 {
+    background-image: url("img/carousel2.jpg");
+}
 
 /* img{
     width: 100px;
     height: 100px;
 } */
-.title-banner-all {
+.carousel-title-banner-all {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
@@ -43,12 +144,34 @@
     height: 50vh;
 }
 
-.parent {
+.carousel-innerclass {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+}
+
+.carousel-innerclass ul {
+    list-style: none;
+}
+
+.carousel-innerclass h3 {
+    margin: 20px 0;
+    color: red;
+}
+
+.carousel-innerclass h4 {
+    margin: 20px 0;
+    color: orangered;
+}
+
+.carousel-wrapper {
     display: flex;
     height: 100%;
 }
 
-.tilte-banner-part1-right {
+.carousel-tilte-banner-part1-right {
     color: #fff;
     flex: 1;
     width: 100%;
@@ -57,126 +180,45 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
-    padding: 20px;
+    /* padding: 20px; */
     position: relative;
 }
 
-.area-top {
-    color: orange;
-    padding: 10px 10px;
-    background-color: rgb(167, 29, 29);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.container-fluid {
-    margin: 0;
-    padding: 0;
-}
-
-/* 
-body,html,*{
-    margin: 0px important;
-    padding: 0px important;
-} */
-.home {
-    color: blue;
-}
-
-.dr {
-    color: #f5a700;
-}
-
-.stetoscope {
-    color: #444444;
-}
-
-.navbar-light {
-    background-color: #2d6167;
-}
-
-.nav-item .dropdown-menu {
-    border-radius: 0px;
-    margin-top: 8px;
-    color: gray;
-    background-color: orange
-}
-
-.dropdown-divider {
-    border: 1px solid green;
-    padding: 0;
-    margin: 0px !important;
-}
-
-/* .brand-class{
-    position: absolute;
-    top:40px;
-} */
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link
-
-/* .navbar-light .navbar-nav .nav-link, */
-    {
-    /* background-color: #006ac6 ; */
-    /* background-color:rgba(0,3,74,1)!important; */
-    color: #fff;
-    color: #fff;
-}
-
-.navbar-nav .nav-item .nav-link {
-    color: #fff;
-    padding-left: 20px;
-}
-
-.navbar-nav .nav-item .nav-link:hover,
-.navbar-nav .nav-item .nav-link:focus {
-    color: #f5a700;
+.carousel-button button {
+    background-color: red;
+    border: 1px solid red;
 }
 
 .mt-10 {
     margin-top: 10px;
 }
 
-.innerclass {
-    position: absolute;
-    top: 15%;
-    left: 20%;
-}
-
-.centerclass {
-    text-align: center;
-}
-
-.arrowbox {
+.carousel-arrow-box {
     width: 30px;
     height: 45px;
-    background-color: #fff;
-    color: black;
+    background-color: red;
+    color: #fff;
     opacity: 1;
+    border-radius: 15px 15px 15px 15px;
     position: absolute;
     /* top:50px; */
     line-height: 45px;
 }
 
-.left-arrow {
+.carousel-left-arrow {
     left: 0;
 }
 
-.right-arrow {
+.carousel-right-arrow {
     right: 0;
 }
 
-.arrowbox:hover {
-    color: red;
+.carousel-arrow-box:hover {
+    color: #fff;
 }
 
 /* air condition sectoon */
-.right-wrapper {
+.carousel-right-wrapper {
     /* border: 1px solid red; */
     position: relative;
     display: flex;
@@ -185,10 +227,79 @@ body,html,*{
     color: #fff;
 }
 
-h1 {
-    color: #f5a700;
+/* =====================carousel end ========================= */
+/*======================residential services=============== */
+.residential-services-main p {
+    /* color: #fff; */
 }
 
+.residential-services-main h1 {
+    /* gg */
+}
+
+.residential-services-main {
+    color: #fff;
+    text-align: center;
+    background-color: rgba(255, 166, 2, 0.24);
+    padding: 30px;
+    /* opacity: .5; */
+}
+
+.residential-services {
+    background-image: url("img/pray-gallry-bg-e1519956493620.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.residential-services .col-4 {
+    background-color: #444444;
+    padding: 12px 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+}
+
+/* ============================residential services ends=============== */
+/* =======================start====================== */
+.circuit-breaker-main {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.circuit-breaker {
+    text-align: center;
+}
+
+.circuit-breaker-part1 {
+    background-color: red;
+    padding: 30px;
+    border-radius: 30px 30px 0 0;
+    height: 80px;
+    ;
+    box-shadow: 0 0 0 4px #beb185;
+}
+
+.circuit-breaker-part2 {
+    background-color: green;
+    border-radius: 30px 30px 0 0;
+    height: 80px;
+    margin-left: 6px;
+    padding: 30px;
+    box-shadow: 0 0 0 4px #85be96;
+}
+
+.circuit-breaker-part3 {
+    background-color: rgb(63, 151, 209);
+    border-radius: 30px 30px 0 0;
+    height: 80px;
+    margin-left: 5px;
+    color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 0 4px #85b0be;
+}
+
+/* ============================end=================== */
 .heading {
     position: absolute;
     bottom: 0;
@@ -241,11 +352,7 @@ h1 {
     background-repeat: no-repeat;
 }
 
-.navbar-light .navbar-brand {
-    color: #f5a700;
-    /* border: 1px solid red !important; */
-}
-
+/* ============================navbar end============================= */
 /*  contact */
 /* ------------------------------------------------------------------------------------------------ */
 .col-lg-6.contact-leftside {
@@ -433,43 +540,59 @@ h1 {
     /* margin: 0; */
 }
 
-
 /* --------------------------------------- */
 /* cities start------------------------ */
-.cities-header{
-text-align: center;
-padding: 10px;
+#citites-contact {
+    padding: 40px;
+    background-color: lightgray;
+    background-image: url("img/pray-gallry-bg-e1519956493620.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.cities-main{
-padding: 10px;
-/* margin: 0; */
-color:#fff;
+
+.cities-main p {
+    padding: 0 20px;
+}
+
+.cities-header {
+    text-align: center;
+    padding: 10px;
+}
+
+.cities-main {
+    padding: 10px;
+    /* margin: 0; */
+    color: #fff;
     background-color: #ec9842;
     /* text-align: center; */
-    border-radius: 0 70px 0 70px;
+    border-radius: 0 90px 0 90px;
 }
-.cities-main h1{
+
+.cities-main h1 {
     color: #fff;
-    margin-bottom: 30px;;
-text-align: center;    
+    margin-bottom: 30px;
+    ;
+    text-align: center;
 }
-.cities-main img{
+
+.cities-main img {
     /* border: 2px dotted black; */
     border-radius: 15px;
-    max-height: 300px;
+    max-height: 250px;
 }
-.cities-main ul li{
+
+.cities-main ul li {
     /* border-bottom: 1px solid gray; */
-    margin: 20px;
+    margin: 10px;
     /* display: block; */
     color: #fff;
     font-weight: 600;
     /* line-height: 30px; */
-    font-size: 20px;
-    padding-top: -20px;
+    font-size: 18px;
     /* vertical-align: text-top; */
     list-style-image: url("img/2342172-24.png");
 }
+
 /* 
 position: absolute;
     min-width: 100%;
@@ -479,49 +602,36 @@ position: absolute;
     min-height: 100%;
     background: #7e8083;
     opacity: 0.6; */
-
-
-#citites-contact{
- padding: 10px;
-    background-color: lightgray;
-    background-image: url("img/pray-gallry-bg-e1519956493620.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* opacity:0.5; */
-    /* z-index: 0; */
-}
-.cities-main p{
-    padding:0  40px;
-}
-.cities-left{
+.cities-left {
     text-align: center;
-    /* background-image: url("img/design1.jpg") */
 }
 
-
-.cities-right{
+.cities-right {
     /* background-color: #444444; */
-    }
+}
+
 /* cities end ------------------------ */
 /* PRODUCTS------------------------ */
-
-.product-header{
-    color:#fff;
+.product-header {
+    color: #fff;
     /* background-color: #f5a700; */
 }
-.product-main{
+
+.product-main {
     width: 80%;
     margin: auto;
 }
-.product-header h1:after{
+
+.product-header h1:after {
     width: 100px;
     height: 2px;
-    background-color:orange;
+    background-color: orange;
     display: block;
-    content:"";
+    content: "";
     margin-top: 30px;
     margin: 0 auto;
 }
+
 .product-wrapper {
     background: url("img/milky-way-2695569_1920.jpg");
     background-size: cover;
@@ -530,32 +640,31 @@ position: absolute;
     width: 100%;
     padding: 50px;
 }
- .product-allpart{
+
+.product-allpart {
     height: 300px;
     width: 100%;
     background-color: #fff;
     text-align: center;
-    margin-top:1%;
-    padding:20px;
+    margin-top: 1%;
+    padding: 20px;
     overflow: hidden;
     /* margin: 30px !important; */
-border: 1px solid black;    
+    border: 1px solid black;
 }
 
-
-.product-allpart img{
+.product-allpart img {
     width: 50px;
     height: 50px;
 }
 
-
 /* PRODUCTS------------------------ */
 .banner1 {
     background: url("img/bg-product.jpg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
-    background-position:center;
+    background-position: center;
     width: 100%;
 }
 
