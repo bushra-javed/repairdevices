@@ -1,4 +1,12 @@
-/* background-color: rgba(25, 80, 8, 0.575); */
+/*
+
+#e5342c;
+#ed9e48;
+#2d6167
+#eb8b22;
+#e64f2b;
+
+background-color: rgba(25, 80, 8, 0.575); */
 /* background-color: rgba(25, 80, 8, 0.575); */
 /* #ec9842; */
 .row {
@@ -29,7 +37,7 @@
 }
 
 .header-leftside {
-    height: 50px;
+    height: 55px;
     border-radius: 20px;
     width: 80%;
     margin: auto;
@@ -44,6 +52,7 @@
     width: 70%;
     margin: auto;
     padding: 10px;
+    font-weight: 700;
 }
 
 .stetoscope {
@@ -77,8 +86,6 @@
 
 .navbar{
     
-    margin: 0;
-    padding: 0;
 }
 
 .dropdown-item {
@@ -87,8 +94,10 @@
 }
 
 .nav-item {
-margin-right: 30px;
-    border: 1px solid red;
+    padding-left: 20PX;
+/* margin: AUTO; */
+/* margin-top: 10PX; */
+    /* border: 1px solid red; */
 }
 .dropdown-divider {
     border: 1px solid #fff;
@@ -116,8 +125,9 @@ margin-right: 30px;
     color: #f5a700;
 }
 
+/* ============================navbar end============================= */
 /* ============================================================ */
-/* ===================carousel ======================== */
+/* ===================carousel START ======================== */
 .carousel-title-banner1 {
     background-image: url("img/carousel4.jpg");
 }
@@ -146,7 +156,7 @@ margin-right: 30px;
 
 .carousel-innerclass {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 10%;
     right: 10%;
     text-align: center;
@@ -157,12 +167,12 @@ margin-right: 30px;
 }
 
 .carousel-innerclass h3 {
-    margin: 20px 0;
-    color: red;
+    margin: 10px 0;
+    color: #ec9842;;
 }
 
 .carousel-innerclass h4 {
-    margin: 20px 0;
+    margin: 10px 0;
     color: orangered;
 }
 
@@ -185,8 +195,8 @@ margin-right: 30px;
 }
 
 .carousel-button button {
-    background-color: red;
-    border: 1px solid red;
+    background-color: #ec9842;
+    border: 1px solid #ec9842;;
 }
 
 .mt-10 {
@@ -228,6 +238,151 @@ margin-right: 30px;
 }
 
 /* =====================carousel end ========================= */
+
+/* ==================================================== */
+
+
+/*  services */
+/* ------------------------------------------------------------------------------------------------ */
+
+
+
+
+.service-wrapper{
+/* service-rightside-wrapper { */
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+ border: 1px solid black;
+
+    /* box-shadow: #444444; */
+    /* transition: all ease .3; */
+    /* background-image: linear-gradient(-45deg, rgba(1, 0, 1, 0.43) 0%, rgba(255, 255, 255, 0.43) 50%, rgba(1, 0, 1, 0.43) 100%); */
+}
+
+.service-header h1{
+padding: 20px 20px 0 20px;;
+
+}
+
+    .service-header p{
+padding: 10px 40px;
+}
+ /* .h {
+    width: 10%;
+    height: 10%;
+    border: 1px solid green;
+}  */
+
+.service-rightside {
+    padding: 40px 100px;
+    height: 100%;
+    border: 1px solid greenyellow;
+    text-align: center;
+}
+.service-rightside ul li:before{
+/* padding: 0; */
+/* margin:0; */
+
+}
+
+
+
+.service-leftside {
+    /* border: 1px solid red; */
+}
+
+.service-rightside {
+    /* color:red; */
+}
+
+.service-leftall{
+
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 70px;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+text-align: center;
+color: #fff;
+font-weight: 700;
+line-height: 20px;
+padding: 12px;
+
+}
+.service-leftcontact1 {
+    background-image: url("img/slice_0_0.png");
+    height: 229px;
+    background-size: 100% 100%;
+    padding-top: 40px;
+    margin-top: 30px;;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.service-leftcontact2 {
+    background-image: url("img/slice_1_0.png");
+    height: 89px;
+}
+
+.service-leftcontact3 {
+    background-image: url("img/slice_2_0.png");
+}
+
+.service-leftcontact4 {
+    background-image: url("img/slice_3_0.png");
+    margin-top: -20px;
+}
+
+.service-leftcontact5 {
+    background-image: url("img/slice_4_0.png");
+    height: 85px;
+    margin-top: -25px;
+}
+
+
+/* =================================== */
+
+.circle1 {
+    background-image: url("img/circleimage.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 237px;
+    background-size: 100% 100%;
+}
+
+.circle2 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    border: 1px solid red;
+    width: 100%;
+    height: 84px;
+}
+
+.circle3 {
+    background-image: url("img/slice/slice2ndhalf_2_01.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 85px;
+}
+
+.circle4 {
+    background-image: url("img/slice/slice2ndhalf_3_01.png");
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-top: -20px;
+    background-repeat: no-repeat;
+    height: 89px;
+}
+
+
+/* --------------------------------------- */
+
+
+/* ========================================================= */
+
 /*======================residential services=============== */
 .residential-services-main p {
     /* color: #fff; */
@@ -352,195 +507,6 @@ margin-right: 30px;
     background-repeat: no-repeat;
 }
 
-/* ============================navbar end============================= */
-/*  contact */
-/* ------------------------------------------------------------------------------------------------ */
-.col-lg-6.contact-leftside {
-    /* border: 1px solid red; */
-    text-align: center;
-    background-color: green;
-    /* margin: 0; */
-    /* padding: 0; */
-}
-
-.col-lg-6.contact-riteside {
-    /* color:red; */
-}
-
-.contact-innerleft {
-    /* background-color:gray; */
-    /* text-align: center; */
-    /* color:#fff; */
-}
-
-/* 
-#e5342c;
-#ed9e48;
-#2d6167
-#eb8b22;
-#e64f2b;
-
- */
-* {
-    box-sizing: border-box;
-}
-
-.contact-innerrite {
-    /* background-color:#e97c25; */
-    /* border: 1px solid  purple; */
-}
-
-.circle1 {
-    background-image: url("img/circleimage.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 237px;
-    background-size: 100% 100%;
-}
-
-.circle2 {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
-    border: 1px solid red;
-    width: 100%;
-    height: 84px;
-}
-
-.circle3 {
-    background-image: url("img/slice/slice2ndhalf_2_01.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
-    height: 85px;
-}
-
-.circle4 {
-    background-image: url("img/slice/slice2ndhalf_3_01.png");
-    background-position: center center;
-    background-size: 100% 100%;
-    margin-top: -20px;
-    background-repeat: no-repeat;
-    height: 89px;
-}
-
-.mmm {
-    box-sizing: border-box;
-    /* margin: 10px 0 !important; */
-    /* padding: 30px; */
-    /* border: 1px solid blue; */
-    /* text-align: center; */
-    box-shadow: #444444;
-    transition: all ease .3;
-    background-image: linear-gradient(-45deg, rgba(1, 0, 1, 0.43) 0%, rgba(255, 255, 255, 0.43) 50%, rgba(1, 0, 1, 0.43) 100%);
-}
-
-.h {
-    width: 100%;
-    height: 100%;
-    border: 1px solid red;
-}
-
-.lll {
-    box-sizing: border-box;
-    margin: 0 auto;
-    /* text-align: center; */
-    padding: 40px 100px;
-    width: 90%;
-    height: 100%;
-    /* color:#fff; */
-    background-color: orangered;
-    border-radius: 50%;
-    border: 1px solid black;
-    /* overflow: hidden; */
-}
-
-.contact1-wrapper,
-.contact2-wrapper {
-    width: 100%;
-    /* height: 289px; */
-    /* border: 1px solid red; */
-}
-
-.contact1 {
-    background-image: url("img/slice_0_0.png");
-    height: 229px;
-    background-size: 100% 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    /* color: red; */
-    /* border: 1px solid red !important; */
-}
-
-.contact2 {
-    background-image: url("img/slice_1_0.png");
-    height: 89px;
-    background-size: 100% 100%;
-    /* background-size:cover; */
-    background-position: center center;
-    background-repeat: no-repeat;
-    /* margin-left: -20px; */
-    margin-top: -30px;
-}
-
-.contact3 {
-    background-image: url("img/slice_2_0.png");
-    background-position: center center;
-    background-size: 100% 100%;
-    color: #2d6167;
-    /* font-size: 22px; */
-    /* width:600px; */
-    height: 70px;
-    background-repeat: no-repeat;
-    /* display: flex;
-    overflow: hidden;
-    /* margin-left: 20px; */
-    margin-top: -30px;
-}
-
-.contact4 {
-    /* border: 1px solid red !important; */
-    /*  */
-    background-image: url("img/slice_3_0.png");
-    background-position: center center;
-    background-size: 100% 100%;
-    /* width:600px; */
-    height: 70px;
-    padding-top: 0;
-    background-repeat: no-repeat;
-    /* display: flex; */
-    /* overflow: hidden; */
-    margin-top: -20px;
-    /* margin-left: -50px; */
-}
-
-.contact5 {
-    /* border: 1px solid red !important; */
-    background-image: url("img/slice_4_0.png");
-    background-position: center center;
-    background-size: 100% 100%;
-    /* width:600px; */
-    height: 70px;
-    padding-top: 0;
-    background-repeat: no-repeat;
-    /* display: flex; */
-    margin-top: -20px;
-    /* margin-left: 50px; */
-}
-
-.row {
-    /* padding: 0; */
-    /* margin: 0; */
-}
-
-.col-lg-6,
-.col-sm-6,
-.col-md-6 {
-    /* padding: 0; */
-    /* margin: 0; */
-}
-
-/* --------------------------------------- */
 /* cities start------------------------ */
 #citites-contact {
     padding: 40px;
