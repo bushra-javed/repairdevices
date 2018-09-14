@@ -25,15 +25,21 @@ background-color: rgba(25, 80, 8, 0.575); */
 .col-lg-4,
 .col-lg-4 {
     /* border: 2px dotted red !important; */
-}
 
+    /* <i class="fa fa-cloud" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i> */
+}
+/* box-shadow: 0 4px 0 0 #e8e8e8;  */
+    /* -moz-box-shadow: 0 4px 0 0 #e8e8e8; */
 /* ===========================header navbar=============================== */
 /* =======================navbar start==================== */
 .header-area-top {
     vertical-align: middle;
-    font-size: 3.5vh;
+    font-size: 3vh;
     padding: 5px;
     color: #ec9842;
+
+text-shadow:2px 2px 4px #000000;
+    
 }
 
 .header-leftside {
@@ -44,6 +50,8 @@ background-color: rgba(25, 80, 8, 0.575); */
     padding: 10px 10px;
     color: #fff;
     background-color: #ec9842;
+text-shadow:2px 2px 4px #444444;
+    
 }
 
 .header-rightside {
@@ -249,11 +257,9 @@ background-color: rgba(25, 80, 8, 0.575); */
 
 
 .service-wrapper{
-/* service-rightside-wrapper { */
     box-sizing: border-box;
     width: 100%;
     height: 100%;
- border: 1px solid black;
 
     /* box-shadow: #444444; */
     /* transition: all ease .3; */
@@ -268,47 +274,135 @@ padding: 20px 20px 0 20px;;
     .service-header p{
 padding: 10px 40px;
 }
- /* .h {
-    width: 10%;
-    height: 10%;
-    border: 1px solid green;
-}  */
+
 
 .service-rightside {
-    padding: 40px 100px;
+    padding: 50px 20px;
     height: 100%;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
+}
+
+.service-rightside h5 {
+    font-size: 3vh;
+    text-shadow:2px 2px 4px #b4aaaa;
+}
+
+
+.service-rightside p {
+font-size: 3vh;
+    
+}
+.service-rightside h5:after{
+
+    /* width: 10vh; */
+    height: 4px;
+    background-color: orange;
+    display: block;
+    content: "";
+    /* margin-top: 30px; */
+    /* margin: 0 auto; */
+    
+}
+
+
+.service-rightside  h5.heading1:after{
+
+background-color: #2d6167;
+width: 160px;
+width: 26vh;
+
+}
+
+
+.service-rightside  h5.heading2:after{
+    background-color: #223db8;
+width: 26vh;
+    
+
+}.service-rightside  h5.heading3:after{
+    background-color: #e6442c;
+    width: 30vh;
+    
+}.service-rightside  h5.heading4:after{
+    background-color:#eb8b22;
+    width: 14vh;
+
+}
+
+.service-rightside > .service-rightside-toppanel{
+    /* border:1px solid red; */
+    background-color: #ec9842;
+    /* transition: all ease .5; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 50px;
+    text-align: center;   
+    height: 50px; 
+    width: 140px;
+}
+
+
+.service-leftside > .service-leftside-toppanel{
+    /* border:1px solid red; */
+    background-color: #164571;
+    position: absolute;
+    top: 0;
+    right: 0;
     text-align: center;
-}
-.service-rightside ul li:before{
-/* padding: 0; */
-/* margin:0; */
-
+    line-height: 50px;
+    height: 50px; 
+    width: 140px;
 }
 
-
-
+.service-wrapper{
+background-image: url("img/bg-product.jpg");
+background-size: contain;
+background-position: center center;
+}
 .service-leftside {
-    /* border: 1px solid red; */
+    /* border: 1px solid gray; */
+    background-color: #8f8a8a;
 }
-
+.service-leftcontact1-img{
+    
+    width: 100px;
+    height: 100px; 
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin:5px auto;
+    box-shadow:2px  2px 2px #444444; 
+}
+.service-leftcontact1-img img{
+    
+    width: 50px;
+    /* box-shadow:2px  2px 2px #444444;  */
+    
+    
+}
 .service-rightside {
     /* color:red; */
+    /* border: 1px solid gray; */
+    
+    /* background-color: #85be96; */
+    
 }
 
 .service-leftall{
-
+    
     background-position: center center;
     background-size: 100% 100%;
     height: 70px;
     background-repeat: no-repeat;
     margin-top: -30px;
-text-align: center;
-color: #fff;
-font-weight: 700;
-line-height: 20px;
-padding: 12px;
-
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 12px;
+    
+    text-shadow:2px 2px 4px #000000;
 }
 .service-leftcontact1 {
     background-image: url("img/slice_0_0.png");
@@ -341,48 +435,115 @@ padding: 12px;
 }
 
 
-/* =================================== */
+/* ====================circuitbreaker-repair  start=============== */
 
-.circle1 {
-    background-image: url("img/circleimage.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 237px;
-    background-size: 100% 100%;
+
+
+
+.circuitbreaker-repair-header h1{
+margin-bottom: 20px;
+padding: 20px;
+}
+    .circuitbreaker-repair-header{
+text-align: center;
+
+
+
 }
 
-.circle2 {
+.circuitbreaker-repair-header h1:after{
+    width: 500px;
+    height: 4px;
+    background-color: orange;
+    display: block;
+    content: "";
+    margin: 0 auto;
+}
+.circuitbreaker-repair-rightside ul li{
+
+padding: 20px;
+
+}
+
+
+.circuitbreaker-repair-leftside{
+/* height: 100%;
+border-radius: 50%;
+width:100%;
+border: 1px solid gray;
+padding: -20px;
+margin: -20px;
+background-color: gray;
+box-shadow: 2px 3px gray; */
+
+}
+
+.circuit-breaker-repair-rightside-heading
+{
+    /* margin-top: 30px; */
+    text-align: center;
+}
+.circuitbreaker-repair-all{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
-    border: 1px solid red;
-    width: 100%;
-    height: 84px;
+ 
 }
-
-.circle3 {
-    background-image: url("img/slice/slice2ndhalf_2_01.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
-    height: 85px;
+.circuitbreaker-repair-circle1 {
+    background-image: url("img/slice/Untitled1.png");
+    height: 187px;
+margin-bottom: -20px;
 }
-
-.circle4 {
-    background-image: url("img/slice/slice2ndhalf_3_01.png");
-    background-position: center center;
-    background-size: 100% 100%;
-    margin-top: -20px;
-    background-repeat: no-repeat;
-    height: 89px;
+.circuitbreaker-repair-circle2 {
+    text-align: center;
+   text-shadow:2px 2px 4px #08137c;
+        /* margin-top: -25px; */
+       height:80px;
+   width: 70%;
+   margin: -10px auto;
+       font-size: 20px;
+       background-color: #08137c;;
+       box-shadow:2px  2px 2px #444444; 
+       color:orange;
+   }
+.circuitbreaker-repair-circle3 {
+    background-image: url("img/slice/[Untitled].png");
+    height: 187px;
 }
-
 
 /* --------------------------------------- */
 
 
-/* ========================================================= */
+/* ===================circuitbreaker-repair end====================================== */
 
+
+/* ===================circuitbreaker-installation start====================================== */
+
+
+
+/* ===================circuitbreaker-installation end====================================== */
+
+
+.circuitbreaker-installation-banner{
+
+
+
+}
+.circuitbreaker-installation-left
+{
+
+
+}
+
+.circuitbreaker-installation-right{
+
+
+}
+
+.circuitbreaker-installation-right img{
+width: 500px;
+height: 400px;
+}
 /*======================residential services=============== */
 .residential-services-main p {
     /* color: #fff; */
