@@ -1,3 +1,8 @@
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
 /*
 
 #e5342c;
@@ -32,12 +37,21 @@ background-color: rgba(25, 80, 8, 0.575); */
     /* -moz-box-shadow: 0 4px 0 0 #e8e8e8; */
 /* ===========================header navbar=============================== */
 /* =======================navbar start==================== */
-.header-area-top {
+.header-area-top-wrapper {
+
+
+}
+
+
+    .header-area-top {
     vertical-align: middle;
     font-size: 3vh;
     padding: 5px;
     color: #ec9842;
-
+/* position: absolute; */
+/* top: 0; */
+/* position: fixed;; */
+/* z-index: 9999; */
 text-shadow:2px 2px 4px #000000;
     
 }
@@ -363,6 +377,11 @@ background-position: center center;
 .service-leftside {
     /* border: 1px solid gray; */
     background-color: #8f8a8a;
+    background-color: #164571;
+    background-image: url("img/gray-gradient.png");
+    /* background-image: url("img/blue-gradient.jpg"); */
+    
+    
 }
 .service-leftcontact1-img{
     
@@ -526,12 +545,31 @@ margin-bottom: -20px;
 
 .circuitbreaker-installation-banner{
 
-
+/* background-image: url("img/g"); */
+background-repeat: no-repeat;
+background-size: 100% 100%;
+height: 100%;
 
 }
-.circuitbreaker-installation-left
-{
 
+.circuitbreaker-installation-bgcolor{
+background-color: rgba(53, 50, 50, 0.6);
+background-color: #164571;
+
+height: 100%;
+}
+
+
+.circuitbreaker-installation-wrapper{
+color:#fff;
+
+    padding: 40px;
+}
+
+
+.circuitbreaker-installation-left h1
+{
+text-align: center;
 
 }
 
@@ -541,11 +579,146 @@ margin-bottom: -20px;
 }
 
 .circuitbreaker-installation-right img{
-width: 500px;
-height: 400px;
+width: 100%;
+max-height: 350px;
 }
+
+/* ========================== */
+
+/* cities start------------------------ */
+ .cities-contact-banner {
+    /* background-image: url("img/gray-gradient.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+height: 100%;
+} 
+
+.cities-contact-bgcolor
+{
+    /* padding: 40px 0;
+    background-color:gray;
+    height: 100%;
+     */
+}
+.cities-contact-wrapper
+{
+   padding: 20px;
+    margin: 10px;
+    background-color: #ec9842;
+    color: #ec9842;
+    /* border-radius: 0 90px 0 90px; */
+    
+}
+.cities-main p {
+    padding: 0 20px;
+    color:blue;
+}
+
+.cities-header {
+    /* text-align: center; */
+    padding: 10px;
+}
+
+.cities-main {
+    background-color: #fff;
+
+    /* text-align: center; */
+    border-radius: 0 90px 0 90px;
+    width: 100%;
+    height:100%;
+
+    margin: 0 auto;
+}
+
+.cities-main h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cities-left {
+text-align: left;
+/* border:1px solid red;  */
+}
+.cities-left img {
+    /* border: 2px dotted black; */
+    border-radius: 15px;
+}
+
+.cities-main ul li {
+    /* border-bottom: 1px solid gray; */
+    margin: 10px;
+    /* display: block; */
+    font-weight: 600;
+    /* line-height: 30px; */
+
+    font-size: 18px;
+    /* vertical-align: text-top; */
+    list-style-image: url("img/2342172-24.png");
+}
+/* ================================================= */
+
+/* PRODUCTS------------------------ */
+.product-header {
+    color: #fff;
+    /* background-color: #f5a700; */
+}
+
+.product-main {
+    width: 80%;
+    margin: auto;
+}
+
+.product-header h1:after {
+    width: 100px;
+    height: 2px;
+    background-color: orange;
+    display: block;
+    content: "";
+    margin-top: 30px;
+    margin: 0 auto;
+}
+
+.product-wrapper {
+    background: url("img/women-740661_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    /* width: 100%; */
+    padding: 50px;
+}
+
+
+.product-bgcolor{
+
+background-color: rgba(2, 7, 26, 0.795);
+/* background-color: rgba(22, 69, 113,.8); */
+    height: 100%;
+    padding: 40px;
+    width: 100%;
+    
+}
+.product-allpart {
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 1%;
+    padding: 20px;
+    overflow: hidden;
+    /* margin: 30px !important; */
+    border: 1px solid black;
+}
+
+.product-allpart img {
+    width: 50px;
+    height: 50px;
+}
+
 /*======================residential services=============== */
-.residential-services-main p {
+.residential-services {
+    background-image: url("img/gray-gradient.png");
+    background-repeat: no-repeat;   
+    
     /* color: #fff; */
 }
 
@@ -556,19 +729,23 @@ height: 400px;
 .residential-services-main {
     color: #fff;
     text-align: center;
-    background-color: rgba(255, 166, 2, 0.24);
+    /* background-color: #164571; */
+    /* background-image: url("img/blue-gradient.jpg"); */
+background-repeat: no-repeat;   
+    /* rgba(255, 166, 2, 0.24); */
     padding: 30px;
     /* opacity: .5; */
 }
 
 .residential-services {
-    background-image: url("img/pray-gallry-bg-e1519956493620.jpg");
+    /* background-image: url("img/gray-gradient.png"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .residential-services .col-4 {
-    background-color: #444444;
+    background-color: #ec9840;
+ box-shadow: 0 0 0 4px #beb185;
     padding: 12px 10px;
     border: 1px solid #fff;
     text-align: center;
@@ -581,6 +758,8 @@ height: 400px;
     width: 70%;
     margin: auto;
     text-align: center;
+    background-color: red;
+    
 }
 
 .circuit-breaker {
@@ -592,7 +771,7 @@ height: 400px;
     padding: 30px;
     border-radius: 30px 30px 0 0;
     height: 80px;
-    ;
+   
     box-shadow: 0 0 0 4px #beb185;
 }
 
@@ -668,57 +847,6 @@ height: 400px;
     background-repeat: no-repeat;
 }
 
-/* cities start------------------------ */
-#citites-contact {
-    padding: 40px;
-    background-color: lightgray;
-    background-image: url("img/pray-gallry-bg-e1519956493620.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.cities-main p {
-    padding: 0 20px;
-}
-
-.cities-header {
-    text-align: center;
-    padding: 10px;
-}
-
-.cities-main {
-    padding: 10px;
-    /* margin: 0; */
-    color: #fff;
-    background-color: #ec9842;
-    /* text-align: center; */
-    border-radius: 0 90px 0 90px;
-}
-
-.cities-main h1 {
-    color: #fff;
-    margin-bottom: 30px;
-    ;
-    text-align: center;
-}
-
-.cities-main img {
-    /* border: 2px dotted black; */
-    border-radius: 15px;
-    max-height: 250px;
-}
-
-.cities-main ul li {
-    /* border-bottom: 1px solid gray; */
-    margin: 10px;
-    /* display: block; */
-    color: #fff;
-    font-weight: 600;
-    /* line-height: 30px; */
-    font-size: 18px;
-    /* vertical-align: text-top; */
-    list-style-image: url("img/2342172-24.png");
-}
 
 /* 
 position: absolute;
@@ -729,61 +857,9 @@ position: absolute;
     min-height: 100%;
     background: #7e8083;
     opacity: 0.6; */
-.cities-left {
-    text-align: center;
-}
 
-.cities-right {
-    /* background-color: #444444; */
-}
 
 /* cities end ------------------------ */
-/* PRODUCTS------------------------ */
-.product-header {
-    color: #fff;
-    /* background-color: #f5a700; */
-}
-
-.product-main {
-    width: 80%;
-    margin: auto;
-}
-
-.product-header h1:after {
-    width: 100px;
-    height: 2px;
-    background-color: orange;
-    display: block;
-    content: "";
-    margin-top: 30px;
-    margin: 0 auto;
-}
-
-.product-wrapper {
-    background: url("img/milky-way-2695569_1920.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    padding: 50px;
-}
-
-.product-allpart {
-    height: 300px;
-    width: 100%;
-    background-color: #fff;
-    text-align: center;
-    margin-top: 1%;
-    padding: 20px;
-    overflow: hidden;
-    /* margin: 30px !important; */
-    border: 1px solid black;
-}
-
-.product-allpart img {
-    width: 50px;
-    height: 50px;
-}
 
 /* PRODUCTS------------------------ */
 .banner1 {
