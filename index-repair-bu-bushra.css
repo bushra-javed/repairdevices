@@ -34,7 +34,7 @@ background-color: rgba(25, 80, 8, 0.575); */
     /* <i class="fa fa-cloud" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i> */
 }
 /* box-shadow: 0 4px 0 0 #e8e8e8;  */
-    /* -moz-box-shadow: 0 4px 0 0 #e8e8e8; */
+    /* -moz-box-shaboxdow: 0 4px 0 0 #e8e8e8; */
 /* ===========================header navbar=============================== */
 /* =======================navbar start==================== */
 .header-area-top-wrapper {
@@ -99,6 +99,7 @@ text-shadow:2px 2px 4px #444444;
     background-color: #ec9842;
     min-width: 220px;
     padding-top: 0;
+    
     padding-bottom: 0;
 }
 
@@ -113,11 +114,14 @@ text-shadow:2px 2px 4px #444444;
 .dropdown-item {
     padding: 10px 10px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .nav-item {
     padding-left: 20PX;
-/* margin: AUTO; */
+    text-transform: uppercase;
+
+    /* margin: AUTO; */
 /* margin-top: 10PX; */
     /* border: 1px solid red; */
 }
@@ -378,6 +382,8 @@ background-position: center center;
     /* border: 1px solid gray; */
     background-color: #8f8a8a;
     background-color: #164571;
+    box-shadow: 2px 2px 4px 3px  #c4bdbd;
+    
     background-image: url("img/gray-gradient.png");
     /* background-image: url("img/blue-gradient.jpg"); */
     
@@ -603,15 +609,18 @@ height: 100%;
 .cities-contact-wrapper
 {
    padding: 20px;
-    margin: 10px;
+    /* margin: 10px; */
     background-color: #ec9842;
     color: #ec9842;
     /* border-radius: 0 90px 0 90px; */
+box-shadow: 2px 2px 4px #444444;
     
 }
 .cities-main p {
     padding: 0 20px;
-    color:blue;
+    /* color:blue; */
+    /* text-align: center; */
+
 }
 
 .cities-header {
@@ -621,32 +630,63 @@ height: 100%;
 
 .cities-main {
     background-color: #fff;
+    /* box-shadow: 2px 2px 4px 3px  #444444; */
+color: #000000;
+/* box-shadow: 2px 2px 4px 3px  #c4bdbd; */
 
-    /* text-align: center; */
     border-radius: 0 90px 0 90px;
     width: 100%;
-    height:100%;
-
-    margin: 0 auto;
+    /* height:100%; */
+padding: 10px 10px;
+    margin: 10px auto;
+box-shadow: 2px 2px 4px #444444;
+    
 }
 
 .cities-main h1 {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     text-align: center;
 }
 
 .cities-left {
 text-align: left;
-/* border:1px solid red;  */
+height: 100%;
+height: 100%;
+display: flex;
+align-items: center; /* horizontal */
+justify-content: left; /* vertical */
+
+}
+
+.cities-main{
+    
+    /* border: 2px dotted black; */
+    /* margin: 10px; */
+    
+}
+
+.cities-right{
+    border-radius: 0 90px 0 90px;
+    
+    border: 4px dotted orange;
+    padding: 15px;
+box-shadow: 2px 2px 4px #444444;
+    
 }
 .cities-left img {
-    /* border: 2px dotted black; */
     border-radius: 15px;
+    /* height: 100%; */
+    vertical-align: middle;
+    /* margin: 20% 0;  */
+    max-height: 380px;
+        /* box-shadow: 2px 2px 4px 3px  #c4bdbd; */
+box-shadow: 2px 2px 4px #444444;
+    
 }
 
 .cities-main ul li {
     /* border-bottom: 1px solid gray; */
-    margin: 10px;
+    /* margin: 10px; */
     /* display: block; */
     font-weight: 600;
     /* line-height: 30px; */
@@ -709,6 +749,9 @@ background-color: rgba(2, 7, 26, 0.795);
     border: 1px solid black;
 }
 
+.product-allpart h3{
+    text-transform: capitalize;
+}
 .product-allpart img {
     width: 50px;
     height: 50px;
@@ -753,6 +796,224 @@ background-repeat: no-repeat;
 }
 
 /* ============================residential services ends=============== */
+
+/* ========================air condition======================= */
+/* ============================ air conditioner start=================== */
+
+.Air-Condition{
+    border-right: 1px solid red; 
+
+}
+.Air-Condition-header{
+
+text-align: center;
+
+}
+
+.Air-Condition-header h1{
+
+}
+.Air-Condition-left-part2,
+.Air-Condition-left-part1{
+ /* padding-right: 30px; */
+ /* padding-left: 30px; */
+ padding: 8px 30px;
+ padding-top: 30px;
+    border-right: 1px solid gray; 
+    box-shadow: 2px 2px 4px #444444;
+}
+
+.Air-Condition-left-part2
+{
+    margin-top: 40px;
+}
+.Air-Condition-left h3{
+color: #ec9842;
+margin: 0 auto;
+background-color:#164571; 
+padding: 10px;
+/* text-decoration-color: #f5a700; */
+text-align: center;
+}
+.Air-Condition-right{
+    /* border: 2px solid gray; */
+    box-shadow: 2px 2px 4px #444444;
+
+}
+
+.Air-Condition-right-part1 {
+    box-shadow: 2px 2px 4px #444444;
+
+    padding: 20px;
+    /* border:3px solid blue; */
+    background-color: #164571;
+/* #ec9842; */
+text-align: center;
+    /* #ec9842; */
+color: #ec9842;
+    
+}
+
+.Air-Condition-right-part2-wrapper{
+    border: 1px solid gray;
+   }
+   
+    
+.Air-Condition-right-part3-wrapper {
+    position: relative;
+}
+
+.Air-Condition-right-part3-wrapper img{
+    width: 70%;
+    height: 280px;
+    /* border: 1px solid gray; */
+    box-shadow: 0 0 1px #444444;
+    
+}
+
+.Air-Condition-right-part4{
+    background-color: #667fff;
+    height:100%;
+    color: #fff;
+    width: 30%;
+ display: inline-block;
+ position: absolute;
+ box-shadow: 0 0 1px #444444;
+ padding: 25px 5px;
+ /* box-shadow: 2px 2px 4px #444444; */
+ 
+}
+.Air-Condition-right-part4 ul li{
+
+    text-transform:capitalize;
+    /* border-bottom: 1px solid gray; */
+    list-style-type: disc;
+
+}
+.Air-Condition-right-heading {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #ec9842;
+    color:#164571; 
+    box-shadow: 2px 2px 4px #444444;
+
+    /* border: 1px solid red; */
+    
+}
+.air-conditioner-company-detail  h3{
+
+padding: 10px;
+background-color: #164571;
+color:#ec9842;
+
+margin: 30px;
+
+}
+
+.air-conditioner-logos {
+
+ /* margin: 0; */
+ padding: 40px;
+    /* border: 1px solid red; */
+background-color:#ec9842;
+
+}
+.air-conditioner-logos img{
+width:120px;
+height: 120px;
+box-shadow: 2px 2px 4px #444444;
+
+}
+
+
+.air-conditioner-company-detail {
+
+margin-top: 30px;
+}
+.air-conditioner-company-detail h2{
+color:#fff;
+margin-bottom: 30px;
+}
+
+
+/* ===========right--panel========== */
+
+
+.carousel-right1{
+    background-color: rgb(63, 151, 209);
+    /* border-radius: 30px 30px 0 0; */
+    /* height: 220px; */
+    /* width: 100%; */
+    margin: 25px;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+box-shadow: 2px 2px 4px #444444;
+    
+}
+
+.carousel-right1 h3 {
+    margin: 10px 0;
+    color: #ec9842;;
+}
+
+.carousel-right1 h4 {
+    margin: 10px 0;
+    color: orangered;
+}
+
+.carousel-right1 button{
+box-shadow: 2px 2px 4px #444444;
+width: 100px;
+text-align: center;    
+}
+
+/* ===========right--panel========== */
+
+
+/* ============================ */
+
+.bluewrapper {
+    border: 1px solid red;
+    position: relative;
+}
+
+.bluebar {
+    background-image: url("img/header-bg-right.jpg");
+    width: 500px;
+    height: 100px;
+    background-size: 100% 100%;
+    background-repeat: repeat;
+}
+
+.rightside {
+    background-image: url("img/rightarrow.png");
+    position: absolute;
+    left: 500px;
+    top: 0;
+    /* background-color: red; */
+    width: 50px;
+    height: 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+/* 
+position: absolute;
+    min-width: 100%;
+    left: 0;
+    z-index: -1;
+    top: 0;
+    min-height: 100%;
+    background: #7e8083;
+    opacity: 0.6; */
+
+
+/* =====================air conditiion end======================== */
+
+
 /* =======================start====================== */
 .circuit-breaker-main {
     width: 70%;
@@ -794,73 +1055,13 @@ background-repeat: no-repeat;
     box-shadow: 0 0 0 4px #85b0be;
 }
 
-/* ============================end=================== */
-.heading {
-    position: absolute;
-    bottom: 0;
-    margin: 0;
-    display: block;
-    width: 300px;
-    height: 50px;
-    color: #006ac6;
-    border: 1px solid red;
-    background-color: #f5a700;
-}
-
-.right-wrapper-right {
-    margin: 0px;
-    padding: 20px;
-    /* border:1px solid red; */
-    background-color: yellow;
-    flex: 1;
-}
-
-.right-wrapper-left {
-    margin: 0;
-    padding: 0;
-    border: 1px solid green;
-    background-color: #f5a700;
-}
-
-.bluewrapper {
-    border: 1px solid red;
-    position: relative;
-}
-
-.bluebar {
-    background-image: url("img/header-bg-right.jpg");
-    width: 500px;
-    height: 100px;
-    background-size: 100% 100%;
-    background-repeat: repeat;
-}
-
-.rightside {
-    background-image: url("img/rightarrow.png");
-    position: absolute;
-    left: 500px;
-    top: 0;
-    /* background-color: red; */
-    width: 50px;
-    height: 100px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
 
 
-/* 
-position: absolute;
-    min-width: 100%;
-    left: 0;
-    z-index: -1;
-    top: 0;
-    min-height: 100%;
-    background: #7e8083;
-    opacity: 0.6; */
+
+/* -----------------riight panel----------------- */
 
 
-/* cities end ------------------------ */
-
+/* ========================== */
 /* PRODUCTS------------------------ */
 .banner1 {
     background: url("img/bg-product.jpg");
