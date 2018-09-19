@@ -1006,6 +1006,60 @@ text-align: center;
 /* ===========product detail carousel right--panel========== */
 
 
+
+/* ============================== */
+
+/* =======================wht ot choose start====================== */
+
+.why-to-choose-wrapper{
+
+    background: url("img/women-740661_1920.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    /* width: 100%; */
+    /* padding: 50px; */
+color:#fff;
+position: relative;
+
+
+}
+.why-to-choose-bgcolor{
+    
+    background-color: rgba(2, 7, 26, 0.795);
+    /* background-color: rgba(22, 69, 113,.8); */
+    height: 100%;
+    padding: 40px 40px;
+    /* width: 50%; */
+    box-shadow: 2px 2px 4px #444444;
+
+    /* text-align: center; */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+     */
+}
+
+.why-to-choose-left{
+    border: 1px solid  #FFF;
+    margin: 0 auto;
+    padding: 30px 30px;
+/* text-align: center; */
+box-shadow: 2px 2px 4px #444444;
+
+}
+
+/* ===============why-to-choose end==================== */
+.circuit-breaker-main {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: red;
+    
+}
+
+
 /* ============================ */
 
 .bluewrapper {
@@ -1047,15 +1101,6 @@ position: absolute;
 
 /* =====================air conditiion end======================== */
 
-
-/* =======================start====================== */
-.circuit-breaker-main {
-    width: 70%;
-    margin: auto;
-    text-align: center;
-    background-color: red;
-    
-}
 
 .circuit-breaker {
     text-align: center;
