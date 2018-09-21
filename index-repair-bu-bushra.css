@@ -761,7 +761,6 @@ padding: 20px 20px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    /* width: 100%; */
     padding: 50px;
 }
 
@@ -844,14 +843,68 @@ padding: 20px 20px;
 }
 
 /* ============================residential services ends=============== */
-/* ========================air condition======================= */
-/* ============================ air conditioner start=================== */
 
-.Air-Condition{
-    border-right: 1px solid red; 
+/* ================================= */
+/* .repair-intallation-service-inner */
+.repair-installation-service-inner
+{
+/* border:1px solid red; */
+text-align: center;
+/* margin: 0 auto; */
+}
+.mm{
+/* border:1px solid red; */
+/* border:1px solid red; */
+/* margin: 20px;     */
+    text-align: center;
+}
+
+
+.repair-intallation-service-part1
+{
+ background-color: #8fa70c;
+    
+}
+.repair-intallation-service-part2
+{
+    background-color: #0f2536;
 
 }
-.Air-Condition-header{
+.repair-intallation-service-part3
+{
+    background-color: rgb(61, 14, 99);
+
+}
+.repair-intallation-service-part4
+{
+    background-color: #4b54d1;
+
+}
+.repair-intallation-service-partall
+
+{
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-shadow:  2px 2px 1px #2d6167;
+    box-shadow: 2px 2px 4px #444444;
+ padding: 20px;
+ color: #fff;
+ text-align: center;
+ height: 60px;
+ width: 190px;
+}
+/* ========================air condition======================= */
+
+
+/* --------------------ggenrator */
+
+
+.Generator{
+    /* border-right: 1px solid red;  */
+/*  */
+}
+.Generator-header{
 
 text-align: center;
 
@@ -948,6 +1001,7 @@ color: #ec9842;
 }
 
 
+/* ------------------------ */
 /* ---------------------------------company logos detail */
 .air-conditioner-company-detail  h3{
 padding: 10px;
@@ -1266,7 +1320,7 @@ position: absolute;
 .row {
     /* margin: 0px !important; */
     /* border: 5px solid blue; */
-    padding: 0px !important;
+    /* padding: 0px !important; */
     /* background-color: #2d6167; */
 }
 
