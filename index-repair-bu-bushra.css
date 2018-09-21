@@ -1,4 +1,19 @@
 
+.fancy-shadow-narrow::before {
+    content: '';
+    height: 10px;
+    left: 0;
+    right: 0;
+    /* top: 50px; */
+    /* bottom: -10px; */
+    position: absolute;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.25)),to(transparent));
+    background-image: -webkit-linear-gradient(top,rgba(0,0,0,.25),transparent);
+    background-image: -o-linear-gradient(top,rgba(0,0,0,.25),transparent);
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.25),transparent);
+}
+
+
 .container-fluid{
     margin: 0;
     padding: 0;
@@ -84,8 +99,19 @@ text-shadow:2px 2px 4px #444444;
 .navbar-light {
     /* background-color: #ec9842; */
     background-color: #164571;
+    box-shadow: 2px 2px 4px #444444;
 }
 
+/*  ========================================= */
+/*  important cammad it will show menu on hover i added it ========================================= */
+/*  ========================================= */
+
+.dropdown:hover{
+/* background-color: red; */
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 .navbar-light .navbar-brand {
     /* color: #f5a700; */
     color: #ec9842;
@@ -94,7 +120,8 @@ text-shadow:2px 2px 4px #444444;
 
 .nav-item .dropdown-menu {
     border-radius: 0px;
-    margin-top: 8px;
+    /* margin-top: 8px; */
+    border-top:5px solid #fff;
     color: gray;
     background-color: #ec9842;
     min-width: 220px;
@@ -278,19 +305,19 @@ text-shadow:2px 2px 4px #444444;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-
+    
     /* box-shadow: #444444; */
     /* transition: all ease .3; */
     /* background-image: linear-gradient(-45deg, rgba(1, 0, 1, 0.43) 0%, rgba(255, 255, 255, 0.43) 50%, rgba(1, 0, 1, 0.43) 100%); */
 }
 
 .service-header h1{
-padding: 20px 20px 0 20px;;
-
+    padding: 20px 20px 0 20px;;
+    
 }
 
-    .service-header p{
-padding: 10px 40px;
+.service-header p{
+    padding: 10px 40px;
 }
 
 
@@ -307,11 +334,11 @@ padding: 10px 40px;
 
 
 .service-rightside p {
-font-size: 3vh;
+    font-size: 3vh;
     
 }
 .service-rightside h5:after{
-
+    
     /* width: 10vh; */
     height: 4px;
     background-color: orange;
@@ -324,19 +351,19 @@ font-size: 3vh;
 
 
 .service-rightside  h5.heading1:after{
-
-background-color: #2d6167;
-width: 160px;
-width: 26vh;
-
+    
+    background-color: #2d6167;
+    width: 160px;
+    width: 26vh;
+    
 }
 
 
 .service-rightside  h5.heading2:after{
     background-color: #223db8;
-width: 26vh;
+    width: 26vh;
     
-
+    
 }.service-rightside  h5.heading3:after{
     background-color: #e6442c;
     width: 30vh;
@@ -344,7 +371,7 @@ width: 26vh;
 }.service-rightside  h5.heading4:after{
     background-color:#eb8b22;
     width: 14vh;
-
+    
 }
 
 .service-rightside > .service-rightside-toppanel{
@@ -364,6 +391,7 @@ width: 26vh;
 .service-leftside > .service-leftside-toppanel{
     /* border:1px solid red; */
     background-color: #164571;
+    
     position: absolute;
     top: 0;
     right: 0;
@@ -374,14 +402,15 @@ width: 26vh;
 }
 
 .service-wrapper{
-background-image: url("img/bg-product.jpg");
-background-size: contain;
-background-position: center center;
+    background-image: url("img/bg-product.jpg");
+    background-size: contain;
+    background-position: center center;
 }
 .service-leftside {
     /* border: 1px solid gray; */
     background-color: #8f8a8a;
     background-color: #164571;
+    
     box-shadow: 2px 2px 4px 3px  #c4bdbd;
     
     background-image: url("img/gray-gradient.png");
@@ -466,14 +495,14 @@ background-position: center center;
 
 
 .circuitbreaker-repair-header h1{
-margin-bottom: 20px;
-padding: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
-    .circuitbreaker-repair-header{
-text-align: center;
-
-
-
+.circuitbreaker-repair-header{
+    text-align: center;
+    
+    
+    
 }
 
 .circuitbreaker-repair-header h1:after{
@@ -485,22 +514,22 @@ text-align: center;
     margin: 0 auto;
 }
 .circuitbreaker-repair-rightside ul li{
-
-padding: 20px;
-
+    
+    padding: 20px;
+    
 }
 
 
 .circuitbreaker-repair-leftside{
-/* height: 100%;
-border-radius: 50%;
-width:100%;
-border: 1px solid gray;
-padding: -20px;
-margin: -20px;
-background-color: gray;
-box-shadow: 2px 3px gray; */
-
+    /* height: 100%;
+    border-radius: 50%;
+    width:100%;
+    border: 1px solid gray;
+    padding: -20px;
+    margin: -20px;
+    background-color: gray;
+    box-shadow: 2px 3px gray; */
+    
 }
 
 .circuit-breaker-repair-rightside-heading
@@ -512,28 +541,28 @@ box-shadow: 2px 3px gray; */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
- 
+    
 }
 .circuitbreaker-repair-circle1 {
     background-image: url("img/slice/Untitled1.png");
     height: 187px;
-margin-bottom: -20px;
+    margin-bottom: -20px;
 }
 .circuitbreaker-repair-circle2 {
     text-align: center;
-   text-shadow:2px 2px 4px #08137c;
-        /* margin-top: -25px; */
-       height:80px;
-   width: 70%;
-   margin: -10px auto;
-       font-size: 20px;
-       background-color: #08137c;;
-       box-shadow:2px  2px 2px #444444; 
-       color:orange;
+    text-shadow:2px 2px 4px #08137c;
+    /* margin-top: -25px; */
+    height:80px;
+    width: 70%;
+    margin: -10px auto;
+    font-size: 20px;
+    background-color: #164571;
+    box-shadow:2px  2px 2px #444444; 
+    color:orange;
    }
-.circuitbreaker-repair-circle3 {
-    background-image: url("img/slice/[Untitled].png");
-    height: 187px;
+   .circuitbreaker-repair-circle3 {
+       background-image: url("img/slice/[Untitled].png");
+       height: 187px;
 }
 
 /* --------------------------------------- */
@@ -550,53 +579,53 @@ margin-bottom: -20px;
 
 
 .circuitbreaker-installation-banner{
-
-/* background-image: url("img/g"); */
-background-repeat: no-repeat;
-background-size: 100% 100%;
-height: 100%;
-
+    
+    /* background-image: url("img/g"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    
 }
 
 .circuitbreaker-installation-bgcolor{
-background-color: rgba(53, 50, 50, 0.6);
-background-color: #164571;
-
-height: 100%;
+    background-color: rgba(53, 50, 50, 0.6);
+    background-color: #164571;
+    
+    height: 100%;
 }
 
 
 .circuitbreaker-installation-wrapper{
-color:#fff;
-
+    color:#fff;
+    
     padding: 40px;
 }
 
 
 .circuitbreaker-installation-left h1
 {
-text-align: center;
-
+    text-align: center;
+    
 }
 
 .circuitbreaker-installation-right{
-
-
+    
+    
 }
 
 .circuitbreaker-installation-right img{
-width: 100%;
-max-height: 350px;
+    width: 100%;
+    max-height: 350px;
 }
 
 /* ========================== */
 
 /* cities start------------------------ */
- .cities-contact-banner {
+.cities-contact-banner {
     /* background-image: url("img/gray-gradient.png"); */
     background-size: cover;
     background-repeat: no-repeat;
-height: 100%;
+    height: 100%;
 } 
 
 .cities-contact-bgcolor
@@ -604,24 +633,24 @@ height: 100%;
     /* padding: 40px 0;
     background-color:gray;
     height: 100%;
-     */
+    */
 }
 .cities-contact-wrapper
 {
-   padding: 20px;
+    padding: 20px;
     /* margin: 10px; */
     background-color: #ec9842;
     color: #ec9842;
     /* border-radius: 0 90px 0 90px; */
-box-shadow: 2px 2px 4px #444444;
+    box-shadow: 2px 2px 4px #444444;
     
 }
 .cities-main p {
     padding: 0 20px;
     /* color:blue; */
-
+    
     /* text-align: center; */
-
+    
 }
 
 .cities-main-header{
@@ -637,15 +666,15 @@ padding: 20px 20px;
 .cities-main {
     background-color: #fff;
     /* box-shadow: 2px 2px 4px 3px  #444444; */
-color: #000000;
-/* box-shadow: 2px 2px 4px 3px  #c4bdbd; */
-
+    color: #000000;
+    /* box-shadow: 2px 2px 4px 3px  #c4bdbd; */
+    
     border-radius: 0 90px 0 90px;
     width: 100%;
     /* height:100%; */
-padding: 10px 10px;
+    padding: 10px 10px;
     margin: 10px auto;
-box-shadow: 2px 2px 4px #444444;
+    box-shadow: 2px 2px 4px #444444;
     
 }
 
@@ -655,13 +684,13 @@ box-shadow: 2px 2px 4px #444444;
 }
 
 .cities-left {
-text-align: left;
-height: 100%;
-height: 100%;
-display: flex;
-align-items: center; /* horizontal */
-justify-content: left; /* vertical */
-
+    text-align: left;
+    height: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: left; /* vertical */
+    
 }
 
 .cities-main{
@@ -676,7 +705,7 @@ justify-content: left; /* vertical */
     
     border: 4px dotted orange;
     padding: 15px;
-box-shadow: 2px 2px 4px #444444;
+    box-shadow: 2px 2px 4px #444444;
     
 }
 .cities-left img {
@@ -685,8 +714,8 @@ box-shadow: 2px 2px 4px #444444;
     vertical-align: middle;
     /* margin: 20% 0;  */
     max-height: 380px;
-        /* box-shadow: 2px 2px 4px 3px  #c4bdbd; */
-box-shadow: 2px 2px 4px #444444;
+    /* box-shadow: 2px 2px 4px 3px  #c4bdbd; */
+    box-shadow: 2px 2px 4px #444444;
     
 }
 
@@ -696,7 +725,7 @@ box-shadow: 2px 2px 4px #444444;
     /* display: block; */
     font-weight: 600;
     /* line-height: 30px; */
-
+    
     font-size: 18px;
     /* vertical-align: text-top; */
     list-style-image: url("img/2342172-24.png");
@@ -720,10 +749,10 @@ box-shadow: 2px 2px 4px #444444;
     content: "";
     margin-top: 30px;
     margin: 0 auto;
-
-
-        width: 400px;
-        height: 4px;
+    
+    
+    width: 400px;
+    height: 4px;
     
 }
 
@@ -738,17 +767,18 @@ box-shadow: 2px 2px 4px #444444;
 
 
 .product-bgcolor{
-
-background-color: rgba(2, 7, 26, 0.795);
-/* background-color: rgba(22, 69, 113,.8); */
+    
+    background-color: rgba(2, 7, 26, 0.795);
+    background-color: rgba(21, 67, 110,.7);
     height: 100%;
     padding: 40px;
     width: 100%;
     
 }
 .product-allpart {
-    height: 300px;
+    height: 310px;
     width: 100%;
+    font-size: 2.5vh;
     background-color: #fff;
     text-align: center;
     margin-top: 1%;
@@ -760,15 +790,19 @@ background-color: rgba(2, 7, 26, 0.795);
 
 .product-allpart h3{
     text-transform: capitalize;
+    font-size: 3vh;
 }
 .product-allpart img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 /*======================residential services=============== */
 .residential-services {
-    background-image: url("img/gray-gradient.png");
+    /* background-image: url("img/gray-gradient.png"); */
+    /* background-color: #85b0be; */
+
+    /* background-color: rgba(21, 67, 110,.7); */
     background-repeat: no-repeat;   
 }
 
@@ -784,12 +818,12 @@ background-color: rgba(2, 7, 26, 0.795);
 .residential-services-main {
     color:#164571;
     text-align: center;
-background-repeat: no-repeat;   
+    background-repeat: no-repeat;   
     padding: 30px;
 }
 
 .residential-services-main p{
- padding: 30px;
+    padding: 30px;
     font-size: 20px;
 }
 .residential-services {
@@ -798,6 +832,7 @@ background-repeat: no-repeat;
 }
 
 .residential-services .col-4 {
+    box-shadow: 2px 2px 4px #444444;    
     background-color: #ec9840;
     padding: 12px 10px;
     border: 1px solid #fff;
@@ -809,7 +844,6 @@ background-repeat: no-repeat;
 }
 
 /* ============================residential services ends=============== */
-
 /* ========================air condition======================= */
 /* ============================ air conditioner start=================== */
 
@@ -839,6 +873,7 @@ text-align: center;
 .Air-Condition-left-part2
 {
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .Air-Condition-left h3{
 color: #ec9842;
@@ -885,7 +920,7 @@ color: #ec9842;
 }
 
 .Air-Condition-right-part4{
-    background-color: #667fff;
+    background-color: #4b97d1;
     height:100%;
     color: #fff;
     width: 30%;
@@ -908,7 +943,7 @@ color: #ec9842;
     padding: 20px;
     text-align: center;
     background-color: #ec9842;
-    color:#164571; 
+    color:#15436e;
     box-shadow: 2px 2px 4px #444444;
 }
 
@@ -956,17 +991,25 @@ margin: 30px 0;
 
 }
 
-.products-detail-left h1:after{
+
+/* footer Colo#1a1a1a;
+
+
+    #333333; */
+
+
+.products-detail-left h3:after{
     width: 500px;
-    height: 2px;
+    height: 3px;
     content: "";
     display: block;
     margin: 0 auto;
     background-color: #08137c;
 
 }
-.products-detail-left h1{
+.products-detail-left h3{
 
+    margin-top: 20px;
     text-align: center;
 }
 .products-detail-left{
@@ -998,11 +1041,46 @@ width: 100%;
 }
 
 .products-detail-right button{
-box-shadow: 2px 2px 4px #444444;
-width: 100px;
-text-align: center;    
+    margin: 10px auto;
+    text-transform: uppercase;
+    height: 70px;
+    width: 160px;
+    font-size: 3vh;
+    background-color: #164571;
+    color:#fff;
+    box-shadow: 2px 2px 4px #444444;
+    border-radius: 0;
 }
 
+
+.contact-us-wrapper{
+    background-color:#667fff;
+    background-color: #4b97d1;
+    padding: 50px;
+}
+.contact-us button{
+    margin: 10px auto;
+    text-transform: uppercase;
+    height: 70px;
+    width: 200px;
+    font-size: 3vh;
+    background-color: #164571;
+    color:#fff;
+    box-shadow: 2px 2px 4px #444444;
+    border-radius: 0;
+    
+}
+.contact-us .phone-no{
+    color: #ec9842;
+}
+
+.contact-us .call-today{
+    color: #164571
+}
+.contact-us{
+    
+    text-align: center;
+}
 /* ===========product detail carousel right--panel========== */
 
 
@@ -1026,7 +1104,8 @@ position: relative;
 }
 .why-to-choose-bgcolor{
     
-    background-color: rgba(2, 7, 26, 0.795);
+    background-color: rgba(21, 67, 110,.7);
+    /* (2, 7, 26, 0.795); */
     /* background-color: rgba(22, 69, 113,.8); */
     height: 100%;
     padding: 40px 40px;
