@@ -54,7 +54,6 @@ background-color: rgba(25, 80, 8, 0.575); */
 /* =======================navbar start==================== */
 .header-area-top-wrapper {
 
-
 }
 
 
@@ -67,7 +66,7 @@ background-color: rgba(25, 80, 8, 0.575); */
 /* top: 0; */
 /* position: fixed;; */
 /* z-index: 9999; */
-text-shadow:2px 2px 4px #000000;
+text-shadow:2px 2px 4px #444444;
     
 }
 
@@ -106,51 +105,33 @@ text-shadow:2px 2px 4px #444444;
 /*  important cammad it will show menu on hover i added it ========================================= */
 /*  ========================================= */
 
-.dropdown:hover{
-/* background-color: red; */
-}
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 .navbar-light .navbar-brand {
-    /* color: #f5a700; */
     color: #ec9842;
-    /* border: 1px solid red !important; */
 }
 
 .nav-item .dropdown-menu {
     border-radius: 0px;
-    /* margin-top: 8px; */
     border-top:5px solid #fff;
     color: gray;
     background-color: #ec9842;
     min-width: 220px;
     padding-top: 0;
-    
     padding-bottom: 0;
 }
-
 .navbar-toggler {
     border-color: #f5a700;
 }
-
-.navbar{
-    
-}
-
 .dropdown-item {
     padding: 10px 10px;
     text-align: center;
     text-transform: uppercase;
 }
-
 .nav-item {
     padding-left: 20PX;
     text-transform: uppercase;
-
-    /* margin: AUTO; */
-/* margin-top: 10PX; */
-    /* border: 1px solid red; */
 }
 .dropdown-divider {
     border: 1px solid #fff;
@@ -166,10 +147,18 @@ text-shadow:2px 2px 4px #444444;
 {
     /* background-color: #006ac6 ;  */
     color: #fff;
+
+
 }
+.navbar-light .navbar-nav .active>.nav-link,
+     .navbar-light .navbar-nav .nav-link.active,
+      .navbar-light .navbar-nav .nav-link.show, 
+      .navbar-light .navbar-nav .show>.nav-link {
+        color: rgb(255,255,255);
+    }
+
 
 .navbar-nav .nav-item .nav-link {
-    /* background-color:rgba(0,3,74,1)!important; */
     color: #fff;
 }
 
@@ -179,24 +168,16 @@ text-shadow:2px 2px 4px #444444;
 }
 
 /* ============================navbar end============================= */
-/* ============================================================ */
 /* ===================carousel START ======================== */
 .carousel-title-banner1 {
     background-image: url("img/carousel4.jpg");
 }
-
 .carousel-title-banner2 {
     background-image: url("img/caurosel3.jpg");
 }
-
 .carousel-title-banner3 {
     background-image: url("img/carousel2.jpg");
 }
-
-/* img{
-    width: 100px;
-    height: 100px;
-} */
 .carousel-title-banner-all {
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -243,7 +224,6 @@ text-shadow:2px 2px 4px #444444;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
-    /* padding: 20px; */
     position: relative;
 }
 
@@ -264,7 +244,6 @@ text-shadow:2px 2px 4px #444444;
     opacity: 1;
     border-radius: 15px 15px 15px 15px;
     position: absolute;
-    /* top:50px; */
     line-height: 45px;
 }
 
@@ -280,9 +259,7 @@ text-shadow:2px 2px 4px #444444;
     color: #fff;
 }
 
-/* air condition sectoon */
 .carousel-right-wrapper {
-    /* border: 1px solid red; */
     position: relative;
     display: flex;
     padding: 0;
@@ -292,22 +269,12 @@ text-shadow:2px 2px 4px #444444;
 
 /* =====================carousel end ========================= */
 
-/* ==================================================== */
-
-
 /*  services */
 /* ------------------------------------------------------------------------------------------------ */
-
-
-
-
 .service-wrapper{
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    
-    /* box-shadow: #444444; */
-    /* transition: all ease .3; */
     /* background-image: linear-gradient(-45deg, rgba(1, 0, 1, 0.43) 0%, rgba(255, 255, 255, 0.43) 50%, rgba(1, 0, 1, 0.43) 100%); */
 }
 
@@ -324,7 +291,6 @@ text-shadow:2px 2px 4px #444444;
 .service-rightside {
     padding: 50px 20px;
     height: 100%;
-    /* border: 1px solid greenyellow; */
 }
 
 .service-rightside h5 {
@@ -338,14 +304,10 @@ text-shadow:2px 2px 4px #444444;
     
 }
 .service-rightside h5:after{
-    
-    /* width: 10vh; */
     height: 4px;
     background-color: orange;
     display: block;
     content: "";
-    /* margin-top: 30px; */
-    /* margin: 0 auto; */
     
 }
 
@@ -357,8 +319,6 @@ text-shadow:2px 2px 4px #444444;
     width: 26vh;
     
 }
-
-
 .service-rightside  h5.heading2:after{
     background-color: #223db8;
     width: 26vh;
@@ -733,9 +693,28 @@ padding: 20px 20px;
 /* ================================================= */
 
 /* PRODUCTS------------------------ */
+#products-services{
+
+    margin-top: 40px;
+}
+
 .product-header {
     color: #fff;
     /* background-color: #f5a700; */
+}
+
+
+.product-header h1
+{
+    font-size: 4vh;
+    font-size: 5.8vmin;
+    
+    
+}
+.product-header p{
+    font-size:2.5vh;
+    /* font-size: 2.8vmin; */
+    
 }
 
 .product-main {
@@ -749,11 +728,8 @@ padding: 20px 20px;
     content: "";
     margin-top: 30px;
     margin: 0 auto;
-    
-    
-    width: 400px;
+    width: 20%;
     height: 4px;
-    
 }
 
 .product-wrapper {
@@ -766,22 +742,22 @@ padding: 20px 20px;
 
 
 .product-bgcolor{
-    
     background-color: rgba(2, 7, 26, 0.795);
     background-color: rgba(21, 67, 110,.7);
     height: 100%;
     padding: 40px;
     width: 100%;
-    
 }
 .product-allpart {
-    height: 310px;
+    height: 280px;
     width: 100%;
-    font-size: 2.5vh;
+    font-size:2.8vh;
+    font-size: 2.8vmin;
+    
     background-color: #fff;
     text-align: center;
     margin-top: 1%;
-    padding: 20px;
+    padding: 10px;
     overflow: hidden;
     /* margin: 30px !important; */
     border: 1px solid black;
@@ -790,6 +766,8 @@ padding: 20px 20px;
 .product-allpart h3{
     text-transform: capitalize;
     font-size: 3vh;
+    font-size: 3.8vmin;
+    
 }
 .product-allpart img {
     width: 40px;
@@ -797,18 +775,29 @@ padding: 20px 20px;
 }
 
 /*======================residential services=============== */
+.residential-services-bgcolor{
+    /* background-image: url("img/bodybg/bg3.jpg"); */
+
+}
 .residential-services {
     /* background-image: url("img/gray-gradient.png"); */
     /* background-color: #85b0be; */
-
     /* background-color: rgba(21, 67, 110,.7); */
-    background-repeat: no-repeat;   
+    /* background-repeat: no-repeat;    */
 }
+.residential-services-main h1{
+font-size: 4vh;
+font-size: 4.8vmin;
+font-size: 5.8vmin;
+/* margin: 20px; */
+display: inline;
+border-bottom: 4px solid orange; 
 
+}
 .residential-services-main h1:after{
-    width: 400px;
+    width:20%;
     height: 4px;
-    background-color: orange;
+    /* background-color: orange; */
     display: block;
     content: "";
     margin: 0 auto;
@@ -819,6 +808,9 @@ padding: 20px 20px;
     text-align: center;
     background-repeat: no-repeat;   
     padding: 30px;
+    font-size: 2.5vh;
+    font-size: 2.8vmin;
+    
 }
 
 .residential-services-main p{
@@ -883,16 +875,16 @@ text-align: center;
 .repair-intallation-service-partall
 
 {
-    margin: 20px;
+    margin: 5px 0;
     text-transform: uppercase;
     font-weight: 500;
     text-shadow:  2px 2px 1px #2d6167;
     box-shadow: 2px 2px 4px #444444;
- padding: 20px;
+ padding: 20px 0;
  color: #fff;
  text-align: center;
  height: 60px;
- width: 190px;
+ /* width: 10px; */
 }
 /* ========================air condition======================= */
 
@@ -1179,7 +1171,7 @@ position: relative;
     margin: 0 auto;
     padding: 30px 30px;
 /* text-align: center; */
-box-shadow: 2px 2px 4px #444444;
+box-shadow: 2px 2px 4px rgb(68, 68, 68);
 
 }
 
@@ -1272,7 +1264,96 @@ position: absolute;
 
 /* -----------------riight panel----------------- */
 
+/* product all at bottom of all repair and install */
+.Electric-device-all{
 
+ /* border: 1px solid red; */
+    margin: 40px 0;   
+}
+.Electric-device-box {
+
+ /* padding: 20px 20px; */
+    /* margin: 10px; */
+}
+
+
+.Electric-device-content {
+    
+    background: #fff;
+    border-radius: 7px;
+    margin-top: 10px;
+text-shadow:2px 2px 4px #444444;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+
+.Electric-device-content:hover {
+    margin-top: -10px;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    -webkit-box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2);
+}
+
+.Electric-device-content h2 {
+    background:gainsboro;
+    color: #ec9842;
+    font-size: 4vmin;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 30px 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.Electric-device-content h3 {
+    color: #fff;
+    /* text-shadow:2px 2px 4px #444444; */
+    text-align: center;
+    font-size: 4vmin;
+        background-color:#ec9842;
+        margin-bottom: 0;
+        font-weight: 700;
+        padding: 20px 0;
+    }
+
+        .Electric-device-content h3 span {
+            font-weight: 300;
+            font-size: 18px;
+        }
+
+        .Electric-device-content h3 sup {
+            font-size: 18px;
+        }
+
+
+
+
+        .Electric-device-bottom-button{
+background-color: #164571;
+margin: 10px auto;
+color: #ec9842;
+        }
+
+
+.Electric-device-bottom {
+    background: #f7f7f7;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 0 0 4px 4px;
+}
+
+
+
+
+    /* box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2); */
+
+
+/* ------------------------------------------------ */
 /* ========================== */
 /* PRODUCTS------------------------ */
 .banner1 {
@@ -1291,14 +1372,14 @@ position: absolute;
 }
 
 /* -------------------------------------------------------------------------------------- */
-.footer-banner {
+/* .footer-banner {
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: orangered;
+    background-color:#164571;
 }
 
-.gray-background {
+.footer-bgcolor{
     background-image: url("img/YOUR_IMAGE_HERE.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1307,54 +1388,125 @@ position: absolute;
     margin: auto;
     padding: 0;
     position: relative;
-    /* border: 3px solid red; */
 }
 
 .ball-div {
     position: absolute;
-    top: 220px;
+    top: 180px;
     left: 100px;
 }
 
-.col-lg-12,
-.row {
-    /* margin: 0px !important; */
-    /* border: 5px solid blue; */
-    /* padding: 0px !important; */
-    /* background-color: #2d6167; */
+.ball-div img{
+    width: 100px;
+    height: 100px;
 }
 
 .white {
-    background-image: linear-gradient(-45deg, rgba(1, 0, 1, 0.43) 0%, rgba(255, 255, 255, 0.43) 50%, rgba(1, 0, 1, 0.43) 100%);
-    height: 431px;
+    background-image: linear-gradient(-45deg, rgba(68  , 68 , 68, 0.93) 0%, rgba(255, 255, 255, 0.43) 50%, rgba(68,69,68,.9) 100%);
+    height: 331px;
     width: 100%;
-}
+} */
 
 /* -------------------------------------------------------------------------------------- */
-.footer-sec {
-    /* background-image: url("img/footer.png"); */
-    width: 100%;
-    height: 570px;
-    border: 1px solid red;
-    /* padding-top: 0; */
-    background-repeat: no-repeat;
-    /* display: flex; */
-    /* overflow: hidden; */
-    /* margin-top: -12px; */
-    /* margin-left: 50px; */
-}
 
-.footer-sec img {
+.footer-banner
+{
+
+    color: #fff;
+        /* background-image: url("img/footer.png"); */
     width: 100%;
     height: 100%;
+    background-color: #444444;
+    /* padding-top: 0; */
+    background-repeat: no-repeat;
 }
+.footer-detail
+{
+    padding: 40px 5px 10px 5px;
+    font-size: 2.8vh;
+    text-align: center;
+}
+.footer-detail ul
+{
+/* border: 5px solid black; */
+padding: 10px;
+width:75%;
+margin: 0 auto;
+    
+}
+.footer-detail ul li a{
+
+
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footer-detail ul li{
+list-style: none;
+margin: 0 auto;
+
+/* border-bottom:1px solid gainsboro; */
+border-bottom: 1px dotted #EFEFEF;
+/* width: 80%; */
+padding: 3px 0;
+/* padding: 0; */
+text-align: center;
+}
+
+.footer-detail-1,
+.footer-detail-2,
+.footer-detail-3
+{
+/* color: orange; */
+/* border: 1px solid red; */
+}
+
+.footer-detail-1 h6,
+    .footer-detail-2 h6,
+        .footer-detail-3 h6{
+    color:#ec9842;
+    text-align: center;
+}
+
+.bottom-footer{
+/* position: fixed; */
+height: 50px;
+
+font-size: 1.8vh;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.144);
+}
+
 
 /* size to upword size */
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+
+
+
+}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .product-main {
+        /* width: 100%; */
+        margin: auto;
+    }
+
+    .product-allpart {
+        height: 250px;
+    }    
+
+    .footer-detail ul
+
+    {
+        width: 100%;
+    }
+    
+
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
