@@ -14,6 +14,100 @@
 }
 
 
+
+/* slanted side  for about-us page start*/
+
+*{
+    padding: 0;
+    margin: 0
+}
+.about-us-slant{
+    color:#fff;
+}
+.slant{
+margin-bottom: 200px;
+    width:100%;
+    height: 400px;
+    background-color: #164571;
+    background-color: #4b97d1;
+    
+    position: relative;
+    text-align: center;
+}
+
+.slant img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.slantdiv{
+    
+    width:100%;
+    height: 400px;
+    background-color:#164571;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: skewY(5deg);
+    transform-origin: top left;
+    z-index: -1;
+}
+
+
+.slant-bothside{
+    margin-top: 140px;
+    /* border: 1px solid red; */
+    margin-bottom: 200px;
+        width:100%;
+        height: 400px;
+        position: relative;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+    }
+    
+    .slant-bothside img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        text-align: center
+    }
+    .slant-bothside h1{
+
+        text-align: center;
+    }
+    .slantdiv-bothside1{
+        
+        width:100%;
+        height: 400px;
+
+    background-color: #4b97d1;
+        position: absolute;
+        top:0;
+        left: 0;
+        transform: skewY(365deg);
+        z-index: -1;
+    }
+    
+    
+    .slantdiv-bothside2{
+        
+        width:100%;
+        height: 400px;
+        background-color: #4b97d1;
+        position: absolute;
+        top:0;
+        transform: skewY(355deg);
+        right: 0;
+        z-index: -1;
+    }
+
+
+/* slanted side  for about-us page*/
+    
+
 .container-fluid{
     margin: 0;
     padding: 0;
@@ -598,18 +692,13 @@ text-shadow:2px 2px 4px #444444;
 .cities-contact-wrapper
 {
     padding: 20px;
-    /* margin: 10px; */
     background-color: #ec9842;
     color: #ec9842;
-    /* border-radius: 0 90px 0 90px; */
     box-shadow: 2px 2px 4px #444444;
     
 }
 .cities-main p {
     padding: 0 20px;
-    /* color:blue; */
-    
-    /* text-align: center; */
     
 }
 
@@ -619,7 +708,6 @@ text-align: center;
 padding: 20px 20px;
 }
 .cities-header {
-    /* text-align: center; */
     padding: 10px;
 }
 
@@ -628,7 +716,6 @@ padding: 20px 20px;
     /* box-shadow: 2px 2px 4px 3px  #444444; */
     color: #000000;
     /* box-shadow: 2px 2px 4px 3px  #c4bdbd; */
-    
     border-radius: 0 90px 0 90px;
     width: 100%;
     /* height:100%; */
@@ -648,21 +735,18 @@ padding: 20px 20px;
     height: 100%;
     height: 100%;
     display: flex;
+    /* border: 1px solid red; */
     align-items: center; /* horizontal */
-    justify-content: left; /* vertical */
+    justify-content: center; /* vertical */
     
 }
 
 .cities-main{
     
-    /* border: 2px dotted black; */
-    /* margin: 10px; */
-    
 }
 
 .cities-right{
     border-radius: 0 90px 0 90px;
-    
     border: 4px dotted orange;
     padding: 15px;
     box-shadow: 2px 2px 4px #444444;
@@ -670,26 +754,18 @@ padding: 20px 20px;
 }
 .cities-left img {
     border-radius: 15px;
-    /* height: 100%; */
     vertical-align: middle;
-    /* margin: 20% 0;  */
     max-height: 380px;
-    /* box-shadow: 2px 2px 4px 3px  #c4bdbd; */
     box-shadow: 2px 2px 4px #444444;
-    
 }
 
 .cities-main ul li {
-    /* border-bottom: 1px solid gray; */
-    /* margin: 10px; */
-    /* display: block; */
+    margin: 0 50px;
     font-weight: 600;
-    /* line-height: 30px; */
-    
     font-size: 18px;
-    /* vertical-align: text-top; */
     list-style-image: url("img/2342172-24.png");
 }
+
 /* ================================================= */
 
 /* PRODUCTS------------------------ */
@@ -1137,7 +1213,7 @@ width: 100%;
 
 .why-to-choose-wrapper{
 
-    background: url("img/women-740661_1920.jpg");
+    background: url("img/electrician.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
