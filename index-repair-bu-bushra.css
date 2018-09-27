@@ -1,4 +1,8 @@
+.logo-color{
+    color: #ec9842;
 
+
+}
 .fancy-shadow-narrow::before {
     content: '';
     height: 10px;
@@ -46,6 +50,8 @@ margin-bottom: 200px;
     width:100%;
     height: 400px;
     background-color:#164571;
+    background-color: #4b97d1;
+    
     position: absolute;
     top:0;
     left: 0;
@@ -54,12 +60,16 @@ margin-bottom: 200px;
     z-index: -1;
 }
 
+.col{
+    text-align: center;
 
+}
 .slant-bothside{
     margin-top: 140px;
     /* border: 1px solid red; */
     margin-bottom: 200px;
-        width:100%;
+     
+    width:100%;
         height: 400px;
         position: relative;
         text-align: center;
@@ -67,12 +77,25 @@ margin-bottom: 200px;
         align-items: center;
         justify-content: center ;
     }
-    
-    .slant-bothside img{
-        width: 200px;
-        height: 200px;
+    .slant-img-div:hover{
+        background-color: #ec9840;
+    }
+    .slant-img-div{
+        padding: 20px;
+        margin: 20px auto;
+        background-color: #fff;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
-        text-align: center
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slant-bothside img{
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        
     }
     .slant-bothside h1{
 
@@ -731,7 +754,7 @@ padding: 20px 20px;
 }
 
 .cities-left {
-    text-align: left;
+    text-align: center;
     height: 100%;
     height: 100%;
     display: flex;
@@ -750,6 +773,13 @@ padding: 20px 20px;
     border: 4px dotted orange;
     padding: 15px;
     box-shadow: 2px 2px 4px #444444;
+    text-align: center;
+font-weight: 600;
+    
+    /* display: flex; */
+    /* border: 1px solid red; */
+    /* align-items: center; horizontal */
+    /* justify-content: center; vertical */
     
 }
 .cities-left img {
@@ -760,10 +790,12 @@ padding: 20px 20px;
 }
 
 .cities-main ul li {
-    margin: 0 50px;
-    font-weight: 600;
-    font-size: 18px;
-    list-style-image: url("img/2342172-24.png");
+     margin: 0 50px;
+    /* font-weight: 600; */
+    /* font-size: 18px; */
+    /* list-style-image: url("img/2342172-24.png"); */ 
+    list-style: none;
+    
 }
 
 /* ================================================= */
@@ -1007,6 +1039,9 @@ text-align: center;
 .Air-Condition-right{
     /* border: 2px solid gray; */
     box-shadow: 2px 2px 4px #444444;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 
 }
 
@@ -1054,6 +1089,7 @@ color: #ec9842;
 }
 .Air-Condition-right-part4 ul li{
 
+    margin-left:20px; 
     text-transform:capitalize;
     /* border-bottom: 1px solid gray; */
     list-style-type: disc;
