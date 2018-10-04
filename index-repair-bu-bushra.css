@@ -3,6 +3,19 @@
 
 
 }
+
+
+/* h1{
+    font-size: 5.5vmin;
+text-align: center;
+}
+p{
+    font-size: 3.5vmin;
+    text-align: center;
+    
+} */
+
+
 .fancy-shadow-narrow::before {
     content: '';
     height: 10px;
@@ -826,7 +839,7 @@ font-weight: 600;
 }
 
 .product-main {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -1249,7 +1262,7 @@ width: 100%;
 
 .why-to-choose-wrapper{
 
-    background: url("img/electrician.jpg");
+    background: url("img/mre-slideshow-images.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -1604,6 +1617,7 @@ background-color: rgba(0, 0, 0, 0.144);
 
     .product-main {
         /* width: 100%; */
+        border: 1px solid red;
         margin: auto;
     }
 
@@ -1625,6 +1639,8 @@ background-color: rgba(0, 0, 0, 0.144);
     /* .contact1{
     height: 209px;
     } 
+    
+    
 .contact1-wapper{
     height: 209px;
     border: 1px solid red;
@@ -1643,13 +1659,37 @@ background-color: rgba(0, 0, 0, 0.144);
 @media (max-width: 575.98px) {}
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+
+
+    .product-wrapper{
+        margin: 0;
+        padding: 20px;
+    }
+    .product-bgcolor{
+        padding: 10px;
+        border: 1px solid red;
+        
+    }
+
+
+}
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+
+    /* .why-to-choose-wrapper{
+
+        background: url("img/mre-small.jpg");
+    }     */
+
+}
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+
+    
+}
 
 /* // Extra large devices (large desktops) */
 /* // No media query since the extra-large breakpoint has no upper bound on its width */

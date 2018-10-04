@@ -13,6 +13,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index-repair-bu-bushra.css">
+    <link rel="stylesheet" href="formval_jquery.css">
+
+
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
 
     <title>Hello, world!</title>
@@ -114,154 +117,94 @@
 
     </div>
 
-    <!-- code -->
-    <!-- <div class="header-area-top">
-        <div class="container-fluid">
+    <section id="contact" style="margin: 120px 0;">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <div class="header-leftside">
+                <div class="col-md-8 col-lg-6  col-12" style="border:1px solid gray; margin:0 auto;">
+                    
+                        <h3 class="text-center" style="margin: 20px 0;">Sign UP</h3>
+                        <!--<div id="sendmessage">Your message has been sent. Thank you!</div>-->
+                        <!--<div id="errormessage"></div>-->
+                        <form action="HtmlPage.html" role="form" class="contactForm" id="form_id" onsubmit="myfunction()">
 
-                        <p class="bold text-center ">OPEN Monday-Saturday(No Extra charge for Weekends)</p>
+                            <span class="help-block"></span>
+                            <div class="form-group has-success">
+                                <label for="form_fisrtname" class="label1">First Name*</label>
+                                <input type="text" name="lastname" class="form-control" id="form_firstname" placeholder="First Name"
+                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <!--  <span id="firstname-error-message"> </span>-->
+
+                            </div>
+                            <span class="help-block"></span>
+                            <div class="form-group has-success">
+                                <label for="form_lastname">Last Name</label>
+                                <input type="text" name="lastname" class="form-control" id="form_lastname" placeholder="Last Name"
+                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <!--<span id="lastname-error-message"> </span>-->
+                            </div>
+
+
+                            <span class="help-block"></span>
+                            <div class="form-group has-success">
+                                <label for="email">Email* </label>
+
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" />
+                                <!-- data-rule="email" data-msg="Please enter a valid email" -->
+
+                                <!--<span id="email_error_message"> </span>-->
+
+                            </div>
+
+                            <div>
+
+                                <p id="p1"><span id="imgid"><img src="img/valid.png" /></span> Enter capital/small
+                                    characters </p>
+                                <p id="p2"><span id="imgid"><img src="img/valid.png" /></span>Enter atleast one
+                                    special character </p>
+                            </div>
+
+                            <div class="form-group has-success">
+                                <label for="password">Password*</label>
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Your password" />
+
+                            </div>
+<!-- this is for weak strong and stronest -->
+                            <!-- <div class="linewrapper">
+                                                <hr id="line1" class="line1" />
+                                                <hr id="line2" class="line2" />
+                                                <hr id="line3" class="line3" />
+                                    </div>
+                                     -->
+                            <span class="help-block"></span>
+                            <div class="form-group has-success">
+                                <label for="re_password">Confirm Password*</label>
+                                <input type="password" class="form-control" name="re-password" id="re_password"
+                                    placeholder="re-enter password" />
+                                <!-- data-rule="email" data-msg="Please enter a valid email" -->
+
+                                <!--<span id="re_password_message"> </span>-->
+
+                            </div>
+
+                            <!--<div class="form-group">
+                                    <label for="textarea_id">Message</label>
+                                    <textarea id="textarea_id"class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <span id="textarea_message"> </span>
+                                </div>-->
+<div style="text-align: center; margin: 20px;">
+
+    <input type='submit' id='validate1' class="btn btn-lg" value="Submit"/>
+</div>
+                        </form>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="header-rightside">
-                        <p class="r">
-                            <span class="header-contactus">
-                                <i class="fa fa-phone"></i>
-                                Contact Us
-                            </span>
-                            +923325463305</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-    <section class="repair-intallation-service">
-        <div class="repair-intallation-service-wrapper">
-            <div class="repair-intallation-service-bgcolor">
-                <div class="container">
-                    <div class="repair-installation-service-inner">
-                        <div class="row">
-
-
-                            <div class="col-6 col-md-3">
-                                <div class="repair-intallation-service-part1 repair-intallation-service-partall">
-                                    5 year granttee</div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="repair-intallation-service-part2 repair-intallation-service-partall">
-
-                                    24/7 service
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="repair-intallation-service-part3 repair-intallation-service-partall">
-                                    free installation</div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="repair-intallation-service-part4 repair-intallation-service-partall">
-                                    1 year free repair</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
 
-    <hr>
-    <!-- ====================choose ============================ -->
-    <!-- ====================choose ============================ -->
-
-    <hr>
-
-    <section id="citites-contact">
-        <div class="cities-contact-wrapper">
-            <div class="container-fluid">
-                <div class="cities-contact-banner">
-                    <div class="cities-contact-bgcolor">
 
 
-                        <div class="container">
 
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="cities-main-header">
-                                        <h1>
-                                            We Are Here To Serve You!
-                                        </h1>
-
-                                        <p>
-                                            When searching for an electrician to carry out electric repair work within
-                                            your home or workplace,
-                                            call on the trusted professionals who have an experience of over 33 years.
-                                            HomeDr Electric Inc is proud to offer full services for rawalpindi
-                                            residents and business owners.
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-6 col-12">
-                                    <div class="cities-left">
-                                        <img src="img/bulbmask.png" class="img-fluid">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-12">
-                                    <div class="cities-main">
-                                        <div class="cities-right">
-                                            <h1>
-                                                we are here to serve u
-                                            </h1>
-                                            <p>
-                                                If your home is in need of other services or repairs,
-                                                select your location below to learn more about our community
-                                                of home service experts.
-                                            </p>
-
-                                            <h3> CONTACT US</h3>
-                                            <address>
-
-                                                <ul>
-                                                    <li> Hno. 23 </li>
-                                                    <li> street # 11 </li>
-                                                    <li> moon town </li>
-                                                    <li> Rawlapindi</li>
-                                                    <li>
-                                                        Tel: 051 42350400
-
-                                                    </li>
-                                                    <li>
-                                                        Email: pakelectrics@gmail.com
-                                                    </li>
-                                                </ul>
-                                            </address>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-        </div>
-        <div class="fancy-shadow-narrow">
-        </div>
-
-    </section>
-    <!-- =====================  cities  services ========================= -->
-
-    <hr>
-    <!-- =========================================== -->
     <section id="contact-us">
 
         <div class="contact-us-wrapper">
@@ -302,76 +245,6 @@
 
 
 
-    <div class="slant-bothside">
-
-
-        <div class="row about-us-slant">
-
-            <div class="col">
-                    <div class="slant-img-div" >
-
-                        <img src="img/clipboard.png">
-                    </div>
-                        <h1>
-
-                    Family-Owned Since 1980
-                </h1>
-
-                <p>
-
-                    Maglio Electric, LLC is family owned and operated, furnishing NJ homes and businesses with
-                    affordable, sustainable electrical.
-                </p>
-
-            </div>
-
-            <div class="col text-center">
-                <div class="slant-img-div" >
-
-                    <img src="img/thumb-up.png">
-                </div>
-                <h1>
-
-                    Company History
-                </h1>
-                <p>
-                    With over 50 years of experience, Anthony Maglio, Jr. is skilled in all facets of electrical and
-                    solar repair and installation.
-
-                </p>
-            </div>
-            <!-- <div class="col">
-                    <div class="slant-img-div" >
-                    <img src="img/thumb-up.png">
-                        
-                    </div>
-
-                <h1>
-
-                    Licenses & Certifications
-                </h1>
-                <p>
-
-                    Our electrical professionals are certified, licensed, and trained to deliver expert service.
-                </p>
-
-            </div> -->
-
-        </div>
-        <div class="slantdiv-bothside1">
-
-
-        </div>
-        <div class="slantdiv-bothside2">
-
-        </div>
-
-
-
-    </div>
-
-
-    <!-- ==================================== -->
     <hr>
 
     <section id="footer-section">
@@ -474,7 +347,28 @@
     </section>
     <!-- ================================================== -->
     <!-- Optional JavaScript -->
+
+
+
+
+    <!--<script type="text/javascript">
+        $(document).ready(function () {
+        //    $.get("footer.html", function (data) {
+        //        $("#footer-place-holder").replaceWith(data);
+        //    });
+        //    $.get("social-media.html", function (data) {
+        //        $("#social-media-place-holder").replaceWith(data);
+        //    });
+            
+        });
+
+        </script>-->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <!-- <script src="Scripts/jquery-3.2.1.js"></script> -->
+
+    <!--<script src="Scripts/jquery-3.2.1.slim.js"></script>-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -482,6 +376,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
         crossorigin="anonymous"></script>
+    <script src="formval_jquery.js"></script>
 </body>
 
 </html>
