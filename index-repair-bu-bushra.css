@@ -3,18 +3,55 @@
 
 
 }
+body{
+    /*  x scroll will be hidden */
+    overflow-x: hidden;
 
 
-/* h1{
-    font-size: 5.5vmin;
+}
+
+.font-button{
+    font-size: 2.9vmin;
+    
+}
+
+h1{
 text-align: center;
+font-size: calc(20px + 1.5vh); 
+font-size: 5.8vmin;
+}
+h2{
+text-align: center;
+    
+    font-size: 5.2vmin;
+    
+}
+h3{
+
+    text-align: center;
+    font-size: 4.3vmin;
+ 
+
+}
+h4{
+
+    text-align: center;
+    font-size: 4.0vmin;
+ 
+
 }
 p{
-    font-size: 3.5vmin;
-    text-align: center;
+    font-size: 3vmin;
     
-} */
+}
 
+ul li{
+    font-size: 2.8vmin;
+list-style: none;    
+}
+.btn{
+    font-size: 2.8vmin;
+}
 
 .fancy-shadow-narrow::before {
     content: '';
@@ -163,6 +200,7 @@ background-color: rgba(25, 80, 8, 0.575); */
     /* border: 3px solid green */
 }
 
+
 .col-lg-12,
 .col-md-12,
 .col-sm-12,
@@ -303,7 +341,7 @@ text-shadow:2px 2px 4px #444444;
     background-image: url("img/carousel4.jpg");
 }
 .carousel-title-banner2 {
-    background-image: url("img/caurosel3.jpg");
+    background-image: url("img/mre-slideshow-images.jpeg");
 }
 .carousel-title-banner3 {
     background-image: url("img/carousel2.jpg");
@@ -424,13 +462,13 @@ text-shadow:2px 2px 4px #444444;
 }
 
 .service-rightside h5 {
-    font-size: 3vh;
+    /* font-size: 3vmin; */
     text-shadow:2px 2px 4px #b4aaaa;
 }
 
 
 .service-rightside p {
-    font-size: 3vh;
+    /* font-size: 4.3vmin; */
     
 }
 .service-rightside h5:after{
@@ -827,13 +865,12 @@ font-weight: 600;
 
 .product-header h1
 {
-    font-size: 4vh;
     font-size: 5.8vmin;
     
     
 }
 .product-header p{
-    font-size:2.5vh;
+    /* font-size:2.9vmin; */
     /* font-size: 2.8vmin; */
     
 }
@@ -872,8 +909,7 @@ font-weight: 600;
 .product-allpart {
     height: 280px;
     width: 100%;
-    font-size:2.8vh;
-    font-size: 2.8vmin;
+    /* font-size: 2.8vmin; */
     
     background-color: #fff;
     text-align: center;
@@ -886,8 +922,8 @@ font-weight: 600;
 
 .product-allpart h3{
     text-transform: capitalize;
-    font-size: 3vh;
-    font-size: 3.8vmin;
+    /* font-size: 3vh; */
+    /* font-size: 3.8vmin; */
     
 }
 .product-allpart img {
@@ -907,9 +943,9 @@ font-weight: 600;
     /* background-repeat: no-repeat;    */
 }
 .residential-services-main h1{
-font-size: 4vh;
-font-size: 4.8vmin;
-font-size: 5.8vmin;
+/* font-size: 4vh; */
+/* font-size: 4.8vmin; */
+/* font-size: 5.8vmin; */
 /* margin: 20px; */
 display: inline;
 border-bottom: 4px solid orange; 
@@ -929,26 +965,37 @@ border-bottom: 4px solid orange;
     text-align: center;
     background-repeat: no-repeat;   
     padding: 30px;
-    font-size: 2.5vh;
-    font-size: 2.8vmin;
+    /* font-size: 2.5vh; */
+    /* font-size: 2.8vmin; */
     
 }
 
 .residential-services-main p{
-    padding: 30px;
-    font-size: 20px;
+    /* padding: 30px; */
+    /* font-size: 20px; */
 }
 .residential-services {
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.residential-col-4-all .col-4 p{
+    font-size: 2.9vmin;
+    /* border: 1px solid red; */
+    
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
 .residential-services .col-4 {
     box-shadow: 2px 2px 4px #444444;    
     background-color: #ec9840;
-    padding: 12px 10px;
+    /* padding: 112px 10px; */
     border: 1px solid #fff;
     text-align: center;
+    /* border: 1px solid red; */
+    padding: 10px 0;
+    /* margin: 0; */
     color: #fff;
     margin: 1px;
     text-transform: capitalize;
@@ -1005,6 +1052,8 @@ text-align: center;
  color: #fff;
  text-align: center;
  height: 60px;
+ /* font-size: 3vmin; */
+ font-size:.81rem;
  /* width: 10px; */
 }
 /* ========================air condition======================= */
@@ -1017,58 +1066,65 @@ text-align: center;
     /* border-right: 1px solid red;  */
 /*  */
 }
+
+.ir-Condition-left{
+
+
+}
 .Generator-header{
 
 text-align: center;
-
-}
-
-.Air-Condition-header h1{
 
 }
 .Air-Condition-left-part2,
 .Air-Condition-left-part1{
  /* padding-right: 30px; */
  /* padding-left: 30px; */
+ 
  padding: 8px 30px;
  padding-top: 30px;
-    border-right: 1px solid gray; 
-    box-shadow: 2px 2px 4px #444444;
+ border-right: 1px solid gray; 
+ box-shadow: 2px 2px 4px #444444;
 }
-
 .Air-Condition-left-part2
 {
+    
+    
     margin-top: 40px;
     margin-bottom: 40px;
 }
 .Air-Condition-left h3{
-color: #ec9842;
-margin: 0 auto;
-background-color:#164571; 
-padding: 10px;
-/* text-decoration-color: #f5a700; */
-text-align: center;
+    color: #ec9842;
+    margin: 0 auto;
+    background-color:#164571; 
+    padding: 10px;
+    /* text-decoration-color: #f5a700; */
+    text-align: center;
 }
-.Air-Condition-right{
+
+.Air-Condition-right-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    }
+     
+     
+     .Air-Condition-right{
     /* border: 2px solid gray; */
     box-shadow: 2px 2px 4px #444444;
     /* display: flex;
     align-items: center;
     justify-content: center; */
-
 }
-
 .Air-Condition-right-part1 {
     box-shadow: 2px 2px 4px #444444;
-
     padding: 20px;
     /* border:3px solid blue; */
     background-color: #164571;
 /* #ec9842; */
-text-align: center;
+    text-align: center;
     /* #ec9842; */
-color: #ec9842;
-    
+    color: #ec9842;
 }
 
 .Air-Condition-right-part2-wrapper{
@@ -1085,7 +1141,6 @@ color: #ec9842;
     height: 280px;
     /* border: 1px solid gray; */
     box-shadow: 0 0 1px #444444;
-    
 }
 
 .Air-Condition-right-part4{
@@ -1098,8 +1153,8 @@ color: #ec9842;
  box-shadow: 0 0 1px #444444;
  padding: 25px 5px;
  /* box-shadow: 2px 2px 4px #444444; */
- 
 }
+
 .Air-Condition-right-part4 ul li{
 
     margin-left:20px; 
@@ -1168,9 +1223,11 @@ margin: 30px 0;
 
     #333333; */
 
-
+    .products-detail-left ul li{
+        list-style: disc;
+    }
 .products-detail-left h3:after{
-    width: 500px;
+    width: 200px;
     height: 3px;
     content: "";
     display: block;
@@ -1216,7 +1273,7 @@ width: 100%;
     text-transform: uppercase;
     height: 70px;
     width: 160px;
-    font-size: 3vh;
+    /* font-size: 3vh; */
     background-color: #164571;
     color:#fff;
     box-shadow: 2px 2px 4px #444444;
@@ -1234,7 +1291,9 @@ width: 100%;
     text-transform: uppercase;
     height: 70px;
     width: 200px;
-    font-size: 3vh;
+    height: 5vmax;
+    width: 25vmin;
+    /* font-size: 3vh; */
     background-color: #164571;
     color:#fff;
     box-shadow: 2px 2px 4px #444444;
@@ -1428,7 +1487,7 @@ text-shadow:2px 2px 4px #444444;
 .Electric-device-content h2 {
     background:gainsboro;
     color: #ec9842;
-    font-size: 4vmin;
+    /* font-size: 4vmin; */
     text-align: center;
     margin-bottom: 0;
     padding: 30px 0;
@@ -1439,7 +1498,7 @@ text-shadow:2px 2px 4px #444444;
     color: #fff;
     /* text-shadow:2px 2px 4px #444444; */
     text-align: center;
-    font-size: 4vmin;
+    /* font-size: 4vmin; */
         background-color:#ec9842;
         margin-bottom: 0;
         font-weight: 700;
@@ -1473,7 +1532,24 @@ color: #ec9842;
 }
 
 
+/* ===============about us======================== */
+.about-service-wrapper{
+    background: url("img/mre-slideshow-images4.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    /* margin: 150px; */
+    /* width: 100%; */
+    /* padding: 50px; */
+color:#fff;
 
+}
+/* .electrician-col-4-all .col-4 p{
+
+margin: 0;
+padding: 0;
+}
+ */
 
     /* box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2); */
 
@@ -1603,8 +1679,11 @@ text-align: center;
 background-color: rgba(0, 0, 0, 0.144);
 }
 
-
+/* =====================size to specified range= between min and max====================================== */
 /* size to upword size */
+/* ========================================================================================= */
+
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
@@ -1617,7 +1696,7 @@ background-color: rgba(0, 0, 0, 0.144);
 
     .product-main {
         /* width: 100%; */
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: auto;
     }
 
@@ -1636,6 +1715,8 @@ background-color: rgba(0, 0, 0, 0.144);
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+
     /* .contact1{
     height: 209px;
     } 
@@ -1654,21 +1735,29 @@ background-color: rgba(0, 0, 0, 0.144);
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
 
-/* size to downward size */
+
+/* =====================size to specified and lesser size====================================== */
+/*==================================== size to downward size ===================================*/
+/* ============================================================================================*/
+
+
+
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {}
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-
+    .carousel-title-banner2 {
+        background-image: url("img/mre-small.jpg");
+    }
     .product-wrapper{
         margin: 0;
         padding: 20px;
     }
     .product-bgcolor{
         padding: 10px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         
     }
 
@@ -1678,10 +1767,24 @@ background-color: rgba(0, 0, 0, 0.144);
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
 
-    /* .why-to-choose-wrapper{
+    .carousel-title-banner2 {
+        background-image: url("img/mre-small.jpg");
+    }
 
-        background: url("img/mre-small.jpg");
-    }     */
+ 
+.why-to-choose-wrapper{
+
+    background: url("img/mre-small.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    /* width: 100%; */
+    /* padding: 50px; */
+color:fff;
+position: relative;
+
+
+}
 
 }
 
