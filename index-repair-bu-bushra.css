@@ -279,6 +279,9 @@ text-shadow:2px 2px 4px #444444;
 .navbar-light .navbar-brand {
     color: #ec9842;
 }
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+}
 
 .nav-item .dropdown-menu {
     border-radius: 0px;
@@ -373,6 +376,8 @@ text-shadow:2px 2px 4px #444444;
     color: #ec9842;;
 }
 
+
+
 .carousel-innerclass h4 {
     margin: 10px 0;
     color: orangered;
@@ -395,13 +400,35 @@ text-shadow:2px 2px 4px #444444;
     position: relative;
 }
 
+.carousel-innerclass a{
+    text-decoration: none;
+    color:#fff;
+}
 .carousel-button button {
     background-color: #ec9842;
     border: 1px solid #ec9842;;
 }
+.carousel-innerclass .btn-danger:hover
+{
+    text-decoration: none;
+    background-color: #164571 !important;
+    border: 1px solid #164571 !important; 
+}
 
 .mt-10 {
     margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-50 {
+    margin-top: 50px;
 }
 
 .carousel-arrow-box {
@@ -1466,7 +1493,7 @@ position: absolute;
     background: #fff;
     border-radius: 7px;
     margin-top: 10px;
-text-shadow:2px 2px 4px #444444;
+text-shadow:1px 0 4px #444444;
     -webkit-transition: all .25s ease-in-out;
     -moz-transition: all .25s ease-in-out;
     -o-transition: all .25s ease-in-out;
@@ -1486,7 +1513,7 @@ text-shadow:2px 2px 4px #444444;
 
 .Electric-device-content h2 {
     background:gainsboro;
-    color: #ec9842;
+    color: #164571;
     /* font-size: 4vmin; */
     text-align: center;
     margin-bottom: 0;
@@ -1521,11 +1548,12 @@ text-shadow:2px 2px 4px #444444;
 background-color: #164571;
 margin: 10px auto;
 color: #ec9842;
+/* border: 1px solid red; */
         }
 
 
 .Electric-device-bottom {
-    background: #f7f7f7;
+    background: #c4bdbd;
     text-align: center;
     padding: 25px 0;
     border-radius: 0 0 4px 4px;
@@ -1544,14 +1572,26 @@ color: #ec9842;
 color:#fff;
 
 }
-/* .electrician-col-4-all .col-4 p{
-
-margin: 0;
-padding: 0;
+/* ===============contact us======================== */
+.contact-service-wrapper{
+    background: url("img/mre-slideshow-images4.jpeg");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    height: 100%;
+    color:#fff;
 }
- */
-
-    /* box-shadow: 0 2px 20px 0 rgba(0,0,0,0.2); */
+.contact-service-bgcolor{
+    background-size: 100% 100%;
+    height: 100%;
+background-color: rgba(0, 0, 0, .45);
+    color:#fff;
+}
+.contact-service-wrapper img{
+width: 100px;
+height: 100px;
+}
+/* box-sha
+    dow: 0 2px 20px 0 rgba(0,0,0,0.2); */
 
 
 /* ------------------------------------------------ */
@@ -1668,6 +1708,8 @@ text-align: center;
         .footer-detail-3 h6{
     color:#ec9842;
     text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
 }
 
 .bottom-footer{
