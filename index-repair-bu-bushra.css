@@ -1574,6 +1574,8 @@ color:#fff;
 }
 /* ===============contact us======================== */
 .contact-service-wrapper{
+   
+   /* margin-top: 20px; */
     background: url("img/mre-slideshow-images4.jpeg");
     background-size: 100% 100%;
     background-repeat: repeat;
@@ -1590,6 +1592,21 @@ background-color: rgba(0, 0, 0, .45);
 width: 100px;
 height: 100px;
 }
+ /* .form-control {
+      background-color: transparent; 
+ }
+.form-control:focus{
+    background-color: transparent;
+    
+} */
+
+.contact-background{
+    /* background:url('img/contact-background.png'); */
+    /* background-size: cover; */
+   /* background-repeat: none;  */
+   box-shadow: 2px 2px 5px 1px gray;
+}
+
 /* box-sha
     dow: 0 2px 20px 0 rgba(0,0,0,0.2); */
 
